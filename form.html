@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Complain Form</title>
+<link rel="stylesheet" type="text/css" href="css/view.css" media="all">
+<script type="text/javascript" src="js/view.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
+</head>
+<body>
+<div id="main_body" >
+	
+	<div id="form_container">
+	
+		<h1><a>Complain Form</a></h1>
+		<form id="form_849471" class="appnitro"  method="post" action="">
+					<div class="form_description">
+			<h2>Complain Form</h2>
+			<p></p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="element_1">Date </label>
+		<span>
+			<input id="element_1_1" name="element_1_1" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_1_1">DD</label>
+		</span>
+		<span>
+			<input id="element_1_2" name="element_1_2" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_1_2">MM</label>
+		</span>
+		<span>
+	 		<input id="element_1_3" name="element_1_3" class="element text" size="4" maxlength="4" value="" type="text">
+			<label for="element_1_3">YYYY</label>
+		</span>
+	
+		<span id="calendar_1">
+			<img id="cal_img_1" class="datepicker" src="images/calendar.gif" alt="Choose.">	
+		</span>
+		<script type="text/javascript">
+			Calendar.setup({
+			inputField	 : "element_1_3",
+			baseField    : "element_1",
+			displayArea  : "calendar_1",
+			button		 : "cal_img_1",
+			ifFormat	 : "%B %e, %Y",
+			onSelect	 : selectEuropeDate
+			});
+		</script>
+		 
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Name </label>
+		<span>
+			<input id="element_2_1" name= "element_2_1" class="element text" maxlength="255" size="8" value=""/>
+			<label>First</label>
+		</span>
+		<span>
+			<input id="element_2_2" name= "element_2_2" class="element text" maxlength="255" size="14" value=""/>
+			<label>Last</label>
+		</span> 
+		</li>
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Address </label>
+		
+		<div>
+			<input id="element_4_1" name="element_4_1" class="element text large" value="" type="text">
+			<label for="element_4_1">Street Address</label>
+		</div>
+	
+		<div class="left">
+			<input id="element_4_3" name="element_4_3" class="element text medium" value="" type="text">
+			<label for="element_4_3">City</label>
+		</div>
+	
+		</li>		<li id="li_5" >
+		<label class="description" for="element_5">Date of incident or situation  </label>
+		<span>
+			<input id="element_5_1" name="element_5_1" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_5_1">DD</label>
+		</span>
+		<span>
+			<input id="element_5_2" name="element_5_2" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_5_2">MM</label>
+		</span>
+		<span>
+	 		<input id="element_5_3" name="element_5_3" class="element text" size="4" maxlength="4" value="" type="text">
+			<label for="element_5_3">YYYY</label>
+		</span>
+	
+		<span id="calendar_5">
+			<img id="cal_img_5" class="datepicker" src="images/calendar.gif" alt="Pick date.">	
+		</span>
+		<script type="text/javascript">
+			Calendar.setup({
+			inputField	 : "element_5_3",
+			baseField    : "element_5",
+			displayArea  : "calendar_5",
+			button		 : "cal_img_5",
+			ifFormat	 : "%B %e, %Y",
+			onSelect	 : selectEuropeDate
+			});
+		</script>
+		 
+		</li>		<li id="li_6" >
+		<label class="description" for="element_6">Location </label>
+		<div>
+			<input id="element_6" name="element_6" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_7" >
+		<label class="description" for="element_7">Please describe what happened. Be as detailed as possible. </label>
+		<div>
+			<textarea id="element_7" name="element_7" class="element textarea medium"></textarea> 
+		</div> 
+		</li>		<li id="li_8" >
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="849471" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>	
+
+	</div>
+	</div>
+	</body>
+</html>

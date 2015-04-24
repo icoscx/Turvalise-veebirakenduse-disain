@@ -1,0 +1,13 @@
+#q, #b {
+    margin: 0
+}
+#q {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: 2em;
+    line-height: 35px;
+}
+
+.setmid{
+    text-align: center;
+}

@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+    <link rel='stylesheet' type='text/css' href='css/styles.css' />
+    <link rel='stylesheet' type='text/css' href='css/buttons.css' />
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <script type='text/javascript' src='js/menu_jquery.js'></script>
+
+    <link rel='stylesheet' type='text/css' href='css/style.css' />
+    <script src="js/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="js/jq.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+
+    <script type="text/javascript" src="js/pop.js"></script>
+    <link rel='stylesheet' type='text/css' href='css/buttons.css' />
+    <link rel='stylesheet' type='text/css' href='css/search.css' />
+    <link rel="stylesheet" type="text/css" href="css/view.css" media="all">
+    <script type="text/javascript" src="js/view.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function(){
+        $( ".dummy" ).append( "Username: " + $.cookie("username") +"  ");
+        $(".dummy").append('<a class="'+'button glow button-primary'+'"' + 'onclick="'+ 'deletecookie()' + '"' + 'href="' +'#' + '">LogOut</a>');
+        //document.getElementById("pop").style.display = 'none';
+        document.getElementById("view").style.display = 'none';
+        //document.getElementById("setuser").value = $.cookie("username");
+    });
+</script>
+<div id="view">
+    <div id="main_body" >
+
+        <div id="form_container">
+
+            <h1><a>Complain Form</a></h1>
+            <form id="detailview" class="appnitro"  method="post" action="">
+                <div class="form_description">
+                    <h2>View Complain</h2>
+                    <p></p>
+                </div>
+                <ul >
+
+                    <li id="li_1" >
+
+                    </li>		<li id="li_2" >
+                    <label class="description" for="element_2">Your contact information </label>
+		<span>
+			<input id="set_fname" required="required" readonly name= "fname" class="element text" maxlength="255" size="8" value=""/>
+            <input id="set_user" name="username" type="hidden" value=""/>
+			<label>First Name</label>
+		</span>
+		<span>
+			<input id="set_lname" required="required" readonly name= "lname" class="element text" maxlength="255" size="14" value=""/>
+			<label>Last Name</label>
+		</span>
+                </li>
+                    </li>		<li id="li_4" >
+                    <label class="description" for="element_4">Address </label>
+
+                    <div>
+                        <input id="set_address" required="required" readonly name="address" class="element text large" value="" type="text">
+                        <label for="element_4_1">Street Address</label>
+                    </div>
+
+                </li>		<li id="li_5" >
+                    <label class="description" for="element_5">Date of incident or situation  </label>
+		<span>
+			<input id="set_date" type="text" required="required" readonly name="dd" class="element text" size="10" maxlength="10" value="" type="text"> /
+			<label for="element_5_1">Date</label>
+		</span>
+
+                </li>		<li id="li_6" >
+                    <label class="description" for="element_6">Type </label>
+                    <div>
+                        <input required="required" readonly id="set_type" name="type" class="element text medium" type="text" maxlength="255" value=""/>
+                    </div>
+                </li>			<li id="li_7" >
+                    <label class="description" for="element_7">Please describe what happened. Be as detailed as possible. </label>
+                    <div>
+                        <textarea readonly required="required" id="set_description" name="description" class="element textarea medium"></textarea>
+                    </div>
+                </li>		<li id="li_8" >
+                </li>
+
+                    <li class="buttons">
+                        <div><a class="button glow button-primary" value="Close" onclick="location.href='search.html'">Close</a></div>
+                    </li>
+                </ul>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<div id='cssmenu'>
+<ul>
+    <li><a href='main.html'><span>My complains</span></a></li>
+    <li ><a href='goverment.html'><span>Goverment View</span></a></li>
+    <li class='active'><a href='search.html'><span>Search</span></a></li>
+</ul>
+</div>
+<div class="dummy"></div>
+<form class="searchform" action="cgi-bin/getComplaints.cgi" method="post">
+    <div class="setmid">
+	<input type="text" id="q" name="searchfor" placeholder="Search here..." required>
+    <input type="submit" value="Search" class="button glow button-primary button-large" />
+    </div>
+</form>
+
+<div id='tablesorted'>
+    <table class="tablesorter ws_data_table">
+        <thead>
+        <tr>
+            <th><a href="search.html?s=case" class="button button-primary button-tiny">Case NR #</a></th> <!-- See väli võiks olla klikitav ala kui klõpsid peale kuvab juhtumi detailselt. -->
+            <th><a href="search.html?s=occ" class="button button-primary button-tiny">Date of Occurance</a></th>
+            <th><a href="search.html?s=act" class="button button-primary button-tiny">Type of activity</a></th>
+            <!-- ma seda tag valiku asja ei oska, siia peaksid andmed automaatselt tulema -->
+        </tr>
+        </thead>
+        <tbody id="append_here">
+
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript" src="js/jq.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<link rel='stylesheet' type='text/css' href='css/buttons.css' />
+<script type="text/javascript" src="js/pop.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
+<link rel="stylesheet" type="text/css" href="css/view.css" media="all">
+<script type="text/javascript" src="js/view.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
+</body>
+</html>
