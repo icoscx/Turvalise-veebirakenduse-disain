@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 5.05.14.
- */
 $(document).ready(function(){
     var param = location.search.split('s=')[1] ? location.search.split('s=')[1] : '';
     var rdyparam = 'list=' + param;
