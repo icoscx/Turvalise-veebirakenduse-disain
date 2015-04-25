@@ -1,16 +1,14 @@
 $(document).ready(function(){
-    var param = location.search.split('s=')[1] ? location.search.split('s=')[1] : '';
-    var rdyparam = 'list=' + param;
-    console.log(rdyparam);
+    var paramUri = location.search.split('s=')[1] ? location.search.split('s=')[1] : '';
+    var setParameter = 'list=' + paramUri;
+    console.log(setParameter);
     $.ajax({
         url: 'cgi-bin/getComplaints.cgi',
         type: 'get',
-        data: rdyparam,
+        data: setParameter,
         success: function(response){
             console.log(response);
             var obj = jQuery.parseJSON(response);
-            //console.log(obj[0].complaint_id);
-            var nr = 1;
             $.each(obj, function(){
                 $( "#append_here" ).append( '<tr><td><a href="#" class="button button-tiny" onclick="openView('+ this.complaint_id +')">'+ this.complaint_id +'</a></td><td>'+ this.date +'</td><td>'+ this.type +'</td></tr>' );
             });
@@ -35,7 +33,7 @@ function openView(nr){
                 $('#set_type').val(this.type);
                 $('#set_description').val(this.description);
                 $('#set_address').val(this.complainer_address);
-                $('#view').bPopup({
+                $('#viewComplaint').bPopup({
                     contentContainer:'.content',
                     position: [500, 50]
                 });
@@ -46,22 +44,20 @@ function openView(nr){
 
 
 function deletecookie(){
-    //alert('delete');
     $.removeCookie("username");
     location.href='index.html';
 }
 
-function pop(){
-    //alert(1);
-    document.getElementById("pop").style.display = 'none';
-    $('#pop').bPopup({
+function popAddComplaint(){
+    document.getElementById("popAddComplaint").style.display = 'none';
+    $('#popAddComplaint').bPopup({
         contentContainer:'.content',
         position: [500, 50]
     });
 
 }
 
-$('form.appnitro').on('submit',function() {
+$('#sendForm').on('submit',function() {
     var that = $(this),
         url = that.attr('action'),
         type = that.attr('method'),
@@ -81,10 +77,10 @@ $('form.appnitro').on('submit',function() {
         type: type,
         data: refined,
         success: function(response){
+            console.log('Item added, ID:');
             console.log(response);
             if(response==0){
                 console.log("Input or backend error");
-                //$( ".content" ).append( "<div>Username already exists</div>" );
                 alert('Something went wrong!');
             }else{
                 location.href='main.html';

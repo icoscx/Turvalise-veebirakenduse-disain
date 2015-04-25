@@ -1,7 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
-
-
 #form_container
 {
 	background:#fff;
@@ -45,7 +43,7 @@
 	width:650px;
 }
 
-form.appnitro
+form.setForm
 {
 	margin:20px 20px 0;
 	padding:0 0 20px;
@@ -81,13 +79,13 @@ img
 
 
 /**** Form Section ****/
-.appnitro
+.setForm
 {
 	font-family: 'PT Sans', sans-serif;
 	font-size:small;
 }
 
-.appnitro li
+.setForm li
 {
 	width:61%;
 }
@@ -657,7 +655,7 @@ ul.password{
 	text-align: center;
 }
 
-.embed form.appnitro
+.embed form.setForm
 {
 	margin:0px 0px 0;
 	

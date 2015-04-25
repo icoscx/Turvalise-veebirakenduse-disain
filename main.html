@@ -9,7 +9,6 @@
 	<link rel='stylesheet' type='text/css' href='css/style.css' />
     <link rel="stylesheet" type="text/css" href="css/view.css">
 
-	<script type='text/javascript' src="js/jquery.tablesorter.min.js"></script>
     <script type="text/javascript" src="js/jq.min.js"></script>
     <script type="text/javascript" src="js/jquery.cookie.js"></script>
     <script type="text/javascript" src="js/pop.js"></script>
@@ -19,29 +18,26 @@
 <body>
 <script>
     $(document).ready(function(){
-        $( ".ui_actions" ).append( "Username: " + $.cookie("username") +"  ");
+        $(".ui_actions").append( "Username: " + $.cookie("username") +"  ");
         $(".ui_actions").append('<a class="'+'button glow button-primary'+'"' + 'onclick="'+ 'deletecookie()' + '"' + 'href="' +'#' + '">LogOut</a>');
-        document.getElementById("pop").style.display = 'none';
-        document.getElementById("view").style.display = 'none';
-        document.getElementById("setuser").value = $.cookie("username");
+        document.getElementById("popAddComplaint").style.display = 'none';
+        document.getElementById("viewComplaint").style.display = 'none';
+        document.getElementById("setUser").value = $.cookie("username");
     });
 </script>
-<div id="view">
+<div id="viewComplaint">
     <div id="main_body" >
-
         <div id="form_container">
 
             <h1><a>Complain Form</a></h1>
-            <form id="detailview" class="appnitro"  method="post" action="">
+            <form id="detailview" class="setForm"  method="post" action="">
                 <div class="form_description">
                     <h2>View Complain</h2>
                     <p></p>
                 </div>
                 <ul >
-
-                    <li id="li_1" >
-
-                    </li>		<li id="li_2" >
+                    <li id="li_1" ></li>
+                    <li id="li_2" >
                     <label class="description" for="element_2">Your contact information </label>
 		<span>
 			<input id="set_fname" required="required" readonly name= "fname" class="element text" maxlength="255" size="8" value=""/>
@@ -90,13 +86,13 @@
         </div>
     </div>
 </div>
-<div id="pop">
+<div id="popAddComplaint">
     <div id="main_body" >
 
         <div id="form_container">
 
             <h1><a>Complain Form</a></h1>
-            <form id="form_849471" class="appnitro"  method="post" action="cgi-bin/addComplaint.cgi">
+            <form id="sendForm" class="setForm"  method="post" action="cgi-bin/addComplaint.cgi">
                 <div class="form_description">
                     <h2>Complain Form</h2>
                     <p></p>
@@ -109,7 +105,7 @@
                     <label class="description" for="element_2">Your contact information </label>
 		<span>
 			<input id="element_2_1" required="required" name= "fname" class="element text" maxlength="255" size="8" value=""/>
-            <input id="setuser" name="username" type="hidden" value=""/>
+            <input id="setUser" name="username" type="hidden" value=""/>
 			<label>First Name</label>
 		</span>
 		<span>
@@ -169,14 +165,14 @@
 </ul>
 </div>
 <div class="ui_actions"></div>
-<div class="button-complaint"><a href="#" onclick="pop()" class="button glow button-primary">Add Complaint</a></div>
+<div class="button-complaint"><a href="#" onclick="popAddComplaint()" class="button glow button-primary">Add Complaint</a></div>
 <div id='tablesorted'>
 <table class="tablesorter ws_data_table">
 <thead>
   <tr>
-    <th><a href="main.html?s=case" class="button button-primary button-tiny">Case NR #</a></th> <!-- See väli võiks olla klikitav ala kui klõpsid peale kuvab juhtumi detailselt. -->
+    <th><a href="main.html?s=case" class="button button-primary button-tiny">Case NR #</a></th>
     <th><a href="main.html?s=occ" class="button button-primary button-tiny">Date of Occurance</a></th>
-    <th><a href="main.html?s=act" class="button button-primary button-tiny">Type of activity</a></th> <!-- ma seda tag valiku asja ei oska, siia peaksid andmed automaatselt tulema -->
+    <th><a href="main.html?s=act" class="button button-primary button-tiny">Type of activity</a></th>
   </tr>
 </thead>
 <tbody id="append_here">
@@ -184,15 +180,15 @@
 </tbody>
 </table>
 </div>
+
+<link rel='stylesheet' type='text/css' href='css/buttons.css'/>
+<link rel="stylesheet" type="text/css" href="css/view.css" media="all">
+<!-- FOR popup windows-->
 <script type="text/javascript" src="js/jq.min.js"></script>
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
-<link rel='stylesheet' type='text/css' href='css/buttons.css' />
 <script type="text/javascript" src="js/pop.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<link rel="stylesheet" type="text/css" href="css/view.css" media="all">
 <script type="text/javascript" src="js/view.js"></script>
-<script type="text/javascript" src="js/calendar.js"></script>
-
 
 </body>
 </html>
