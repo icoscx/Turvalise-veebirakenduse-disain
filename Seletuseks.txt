@@ -1,0 +1,8 @@
+*Kõik POST requestid peavad olema üle https, st TLS nt, SSL3 on buggine ning üldiselt depircated.
+Parooli saatmisel serverisse on ekstra turvalisuse mõttes mõistlik hashida parool, pigem paranoia.
+
+SQL injection: PD objects. Eelvalmistatakse query, siis täidetakse. Mitte ala sql = "SELECT * FROM admin where id={$input}";
+When using Prepared Statements with PDO::prepare() and PDOStatement::execute(), you don't have any quoting to do : this will be done automatically.
+PDO charset=utf8 piirab erimärke.
+
+

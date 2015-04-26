@@ -1,27 +1,19 @@
 #!"C:/Program Files (x86)/Ampps/php/php-cgi.exe" -q
+
 <?php
-
-    $mysqli = new mysqli("localhost", "root", "mysql", "kodu");
-
+//accept ajax requests only
+if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
+        die();
+}else{
+    require('../BackEnd/DB.php');
     $data = file_get_contents("php://input");
-    $data = json_decode($data, true);
-    //print_r($data);
-    if(isset($data['username'], $data['password'], $data['email'])){
-        $query = "SELECT * FROM users WHERE username='".$data[username]."'";
-        if ($result = $mysqli->query($query)) {
-           	while ($row = $result->fetch_assoc()) {
-                if($data['username'] === $row['username']){
-        			print 0;
-        			break;
-        		}
-           }
-           if($row['username'] === NULL){
-        	    $query = "INSERT INTO `users`(`username`, `password`, `email`) VALUES ('".$data['username']."','".$data['password']."','".$data['email']."')";
-        	    $mysqli->query($query);
-        		printf ($mysqli->insert_id);
-           }
+}
+//check input
+if(isset($data["username"], $data["password"], $data["email"])){
 
-        }
-    }
+    $data = json_decode($data, true);
+    print_r($data);
+
+}
 
 ?>
