@@ -12,7 +12,20 @@ if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQ
 if(isset($data["username"], $data["password"], $data["email"])){
 
     $data = json_decode($data, true);
-    print_r($data);
+    $username = $data["username"];
+    $password = $data["password"];
+    $email = $data["email"];
+    //escape SQL injection with prebuilt q
+    $query = "INSERT INTO users(username, password, email) VALUES(:username, :password, :email)";
+    $query = $db->prepare($query);
+    if(!$results = $query->execute(array(
+        ":username" => $username,
+        ":password" => $password,
+        ":email" => $email
+    ))){
+        print_r($query->errorInfo());
+    }
+    print_r(1);
 
 }
 

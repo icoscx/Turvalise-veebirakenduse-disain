@@ -43,7 +43,11 @@ $('form.register-form').on('submit',function(e) {
         contentType: "application/json; charset=utf-8",
         success: function(response){
             console.log(response);
-
+            if(response != 1){
+                alert('username already exists');
+            }else{
+                location.href='index.html';
+            }
         },
         error: function (xhr, ajaxOptions, thrownError) {
             console.log(xhr.status);
