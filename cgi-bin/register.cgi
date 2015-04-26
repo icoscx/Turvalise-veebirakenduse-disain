@@ -23,9 +23,10 @@ if(isset($data["username"], $data["password"], $data["email"])){
         ":password" => $password,
         ":email" => $email
     ))){
-        print_r($query->errorInfo());
+        print_r(1);
     }
-    print_r(1);
+    $error = $query->errorInfo();
+    print_r($error[2]);
 
 }
 
