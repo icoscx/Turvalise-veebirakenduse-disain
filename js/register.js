@@ -22,7 +22,7 @@ $('form.register-form').on('submit',function() {
             console.log(response);
             if(response==0){
                 console.log("error registering, username exists");
-                $( ".content" ).append( '<div class='+"loginerror"+'>Username already exists</div>' );
+                $(".content").append( '<div class='+"loginerror"+'>Username already exists</div>' );
 
             }else{
                 location.href='index.html';
