@@ -23,18 +23,14 @@
 <body>
 <script>
     $(document).ready(function(){
-        $( ".dummy" ).append( "Username: " + $.cookie("username") +"  ");
-        $(".dummy").append('<a class="'+'button glow button-primary'+'"' + 'onclick="'+ 'deletecookie()' + '"' + 'href="' +'#' + '">LogOut</a>');
-        //document.getElementById("pop").style.display = 'none';
+        $(".ui_actions").append( "Username: " + $.cookie("username") +"  ");
+        $(".ui_actions").append('<a class="'+'button glow button-primary'+'"' + 'onclick="'+ 'deletecookie()' + '"' + 'href="' +'#' + '">LogOut</a>');
         document.getElementById("view").style.display = 'none';
-        //document.getElementById("setuser").value = $.cookie("username");
     });
 </script>
 <div id="view">
     <div id="main_body" >
-
         <div id="form_container">
-
             <h1><a>Complain Form</a></h1>
             <form id="detailview" class="appnitro"  method="post" action="">
                 <div class="form_description">
@@ -42,9 +38,7 @@
                     <p></p>
                 </div>
                 <ul >
-
                     <li id="li_1" >
-
                     </li>		<li id="li_2" >
                     <label class="description" for="element_2">Your contact information </label>
 		<span>
@@ -98,11 +92,10 @@
 <div id='cssmenu'>
 <ul>
     <li><a href='main.html'><span>My complains</span></a></li>
-    <li ><a href='goverment.html'><span>Goverment View</span></a></li>
     <li class='active'><a href='search.html'><span>Search</span></a></li>
 </ul>
 </div>
-<div class="dummy"></div>
+<div class="ui_actions"></div>
 <form class="searchform" action="cgi-bin/getComplaints.cgi" method="post">
     <div class="setmid">
 	<input type="text" id="q" name="searchfor" placeholder="Search here..." required>
@@ -114,24 +107,24 @@
     <table class="tablesorter ws_data_table">
         <thead>
         <tr>
-            <th><a href="search.html?s=case" class="button button-primary button-tiny">Case NR #</a></th> <!-- See väli võiks olla klikitav ala kui klõpsid peale kuvab juhtumi detailselt. -->
+            <th><a href="search.html?s=case" class="button button-primary button-tiny">Case NR #</a></th>
             <th><a href="search.html?s=occ" class="button button-primary button-tiny">Date of Occurance</a></th>
             <th><a href="search.html?s=act" class="button button-primary button-tiny">Type of activity</a></th>
-            <!-- ma seda tag valiku asja ei oska, siia peaksid andmed automaatselt tulema -->
         </tr>
         </thead>
         <tbody id="append_here">
-
         </tbody>
     </table>
 </div>
+
+<link rel='stylesheet' type='text/css' href='css/buttons.css' />
+<link rel="stylesheet" type="text/css" href="css/view.css" media="all">
+
 <script type="text/javascript" src="js/jq.min.js"></script>
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
-<link rel='stylesheet' type='text/css' href='css/buttons.css' />
 <script type="text/javascript" src="js/pop.js"></script>
 <script type="text/javascript" src="js/search.js"></script>
-<link rel="stylesheet" type="text/css" href="css/view.css" media="all">
 <script type="text/javascript" src="js/view.js"></script>
-<script type="text/javascript" src="js/calendar.js"></script>
+
 </body>
 </html>
