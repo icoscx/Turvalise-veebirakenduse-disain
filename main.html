@@ -22,7 +22,6 @@
         $(".ui_actions").append('<a class="'+'button glow button-primary'+'"' + 'onclick="'+ 'deletecookie()' + '"' + 'href="' +'#' + '">LogOut</a>');
         document.getElementById("popAddComplaint").style.display = 'none';
         document.getElementById("viewComplaint").style.display = 'none';
-        document.getElementById("setUser").value = $.cookie("username");
     });
 </script>
 <div id="viewComplaint">
@@ -169,9 +168,9 @@
 <table class="tablesorter ws_data_table">
 <thead>
   <tr>
-    <th><a href="main.html?s=case" class="button button-primary button-tiny">Case NR #</a></th>
-    <th><a href="main.html?s=occ" class="button button-primary button-tiny">Date of Occurance</a></th>
-    <th><a href="main.html?s=act" class="button button-primary button-tiny">Type of activity</a></th>
+    <th><a href="#" class="button button-primary button-tiny">Case NR #</a></th>
+    <th><a href="#" class="button button-primary button-tiny">Date of Occurance</a></th>
+    <th><a href="#" class="button button-primary button-tiny">Type of activity</a></th>
   </tr>
 </thead>
 <tbody id="append_here">

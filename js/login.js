@@ -37,7 +37,11 @@ $('form.login-form').on('submit',function(e) {
         contentType: "application/json; charset=utf-8",
         success: function(response){
             console.log(response);
-
+            if(!response.match(/1/i)){
+                alert('Login error, please try again later');
+            }else{
+                location.href='main.html';
+            }
         },
         error: function (xhr, ajaxOptions, thrownError) {
             console.log(xhr.status);

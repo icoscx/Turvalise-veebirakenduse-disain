@@ -7,4 +7,6 @@ PDO charset=utf8 piirab erimärke.
 
 
 The password_hash function returns a string that contains both the hash and the salt.
+ST Username DB-s ei hoia. Hoiame Hsh(PW + Salt) , pärast võrdleme logimisel seda tuletatud hashi
+
 

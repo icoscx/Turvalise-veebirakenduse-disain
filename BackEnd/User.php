@@ -1,17 +1,14 @@
 <?php
 class User{
+
      public $_ID = null;
-     function __construct($id) {
+     public $_UserName = null;
+
+     function __construct($id, $name) {
          $this->_ID = $id;
+         $this->_UserName = $name;
     }               
-                
-     function setID($id) {
-         $this->_ID = $id;
-     }       
-        
-     function getID() {           
-         return $this->_ID;            
-     }              
+
 }
 ?>
 

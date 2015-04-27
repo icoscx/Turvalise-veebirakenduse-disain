@@ -1,17 +1,17 @@
 $(document).ready(function(){
-    var paramUri = location.search.split('s=')[1] ? location.search.split('s=')[1] : '';
-    var setParameter = 'list=' + paramUri;
+    var setParameter = 'listItems';
+    console.log('Sending to server..');
     console.log(setParameter);
     $.ajax({
-        url: 'cgi-bin/getComplaints.cgi',
+        url: 'cgi-bin/getPosts.cgi',
         type: 'get',
         data: setParameter,
         success: function(response){
             console.log(response);
-            var obj = jQuery.parseJSON(response);
-            $.each(obj, function(){
-                $( "#append_here" ).append( '<tr><td><a href="#" class="button button-tiny" onclick="openView('+ this.complaint_id +')">'+ this.complaint_id +'</a></td><td>'+ this.date +'</td><td>'+ this.type +'</td></tr>' );
-            });
+           // var obj = jQuery.parseJSON(response);
+           // $.each(obj, function(){
+              //  $( "#append_here" ).append( '<tr><td><a href="#" class="button button-tiny" onclick="openView('+ this.complaint_id +')">'+ this.complaint_id +'</a></td><td>'+ this.date +'</td><td>'+ this.type +'</td></tr>' );
+            //});
         }
     });
 

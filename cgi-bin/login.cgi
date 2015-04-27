@@ -41,13 +41,15 @@ if(isset($data["username"], $data["password"])){
             exit("Invalid password");
         }
     }
-
+//Ehitame sessi
 if(isset($allowSess["username"], $allowSess["id"])){
         require('../BackEnd/User.php');
-        $user = new User($allowSess["id"]);
+        $user = new User($allowSess["id"], $allowSess["username"]);
         session_start();
         $UserID = $user->_ID;
+        $UName = $user->__UserName;
         $_SESSION['UserID'] = $UserID;
+        $_SESSION['UName'] = $UserID;
         exit("1");
     }
 ?>
