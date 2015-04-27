@@ -8,25 +8,29 @@ if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQ
     require('../BackEnd/DB.php');
     $data = file_get_contents("php://input");
 }
+
+$data = json_decode($data, true);
+
 //check input
 if(isset($data["username"], $data["password"], $data["email"])){
-
-    $data = json_decode($data, true);
     $username = $data["username"];
     $password = $data["password"];
     $email = $data["email"];
+    $saltedhash = password_hash($password, PASSWORD_BCRYPT);
     //escape SQL injection with prebuilt q
-    $query = "INSERT INTO users(username, password, email) VALUES(:username, :password, :email)";
+    $query = "INSERT INTO users(username, email, saltedhash) VALUES(:username, :email, :saltedhash)";
     $query = $db->prepare($query);
     if(!$results = $query->execute(array(
         ":username" => $username,
-        ":password" => $password,
-        ":email" => $email
+        ":email" => $email,
+        ":saltedhash" => $saltedhash
     ))){
-        print_r(1);
+        $error = $query->errorInfo();
+        print_r($error[2]);
+        die();
     }
-    $error = $query->errorInfo();
-    print_r($error[2]);
+    print_r(1);
+
 
 }
 

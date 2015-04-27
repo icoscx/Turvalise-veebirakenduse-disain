@@ -6,3 +6,5 @@ When using Prepared Statements with PDO::prepare() and PDOStatement::execute(), 
 PDO charset=utf8 piirab erimärke.
 
 
+The password_hash function returns a string that contains both the hash and the salt.
+

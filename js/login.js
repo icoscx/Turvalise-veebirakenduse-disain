@@ -1,36 +1,48 @@
-$('form.login-form').on('submit',function() {
-        var that = $(this),
-            url = that.attr('action'),
-            type = that.attr('method'),
-            data = {};
+$('form.login-form').on('submit',function(e) {
+    e.preventDefault();
+
+    //setup input filters
+    var name_regex = /^[a-zA-Z0-9]{3,20}+$/;
+
+    var that = $(this),
+        url = that.attr('action'),
+        type = that.attr('method'),
+        data = {};
 
     that.find('[name]').each(function(index, value){
         var that = $(this),
             name = that.attr('name'),
             value = that.val();
-        data[name] = value;
+            if($.trim(value).length > 0){//WhiteSpace trim and empty Input check
+                data[name] = value;
+            }else{
+                console.log('Input empty');
+                return false;
+            }
     });
-    console.log('Parsed json:');
-    //console.log(data.username);
+
+    if(!data['username'].match(name_regex) || !data['password'].match(name_regex)){
+        alert('Invalid username/password [a-z, A-Z, 0-9]');
+        return false;
+    }
+
     var refined = JSON.stringify(data);
     console.log(refined);
+    console.log('Sending to server..');
     $.ajax({
         url: url,
         type: type,
         data: refined,
+        cache: false,
+        contentType: "application/json; charset=utf-8",
         success: function(response){
             console.log(response);
-            if(response==200){
-                console.log("SettingUpCookies:");
-                $.cookie("username", data.username);
-                console.debug($.cookie("username"));
-                location.href='main.html';
-            }else{
-                console.log("error logging in");
-                $( ".content" ).append( '<div class=' + "loginerror" + '>Vale kasutaja/parool</div>');
-            }
-        }
-    });
 
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+            console.log(xhr.status);
+            console.log(thrownError);
+         }
+    });
     return false;
 });

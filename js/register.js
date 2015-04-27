@@ -3,8 +3,8 @@ $('form.register-form').on('submit',function(e) {
     e.preventDefault();
 
     //setup input filters
-    var name_regex = /^[a-zA-Z0-9]+$/;
-    var email_regex = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
+    var name_regex = /^[a-zA-Z0-9]{3,20}+$/;
+    var email_regex = /^[\w\-\.\+]{3,20}+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
 
     var that = $(this),
         url = that.attr('action'),
@@ -24,17 +24,16 @@ $('form.register-form').on('submit',function(e) {
     });
 
     if(!data['username'].match(name_regex) || !data['password'].match(name_regex)){
-        alert('Invalid username/password [a-z, A-Z]');
+        alert('Invalid username/password [a-z, A-Z, 0-9]');
         return false;
     }else if(!data['email'].match(email_regex)){
         alert('Invalid e-mail');
         return false;
     }
 
-    console.log(data);
     var refined = JSON.stringify(data);
     console.log(refined);
-
+    console.log('Sending to server..');
     $.ajax({
         url: url,
         type: type,
