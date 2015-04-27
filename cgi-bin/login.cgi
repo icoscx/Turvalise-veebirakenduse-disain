@@ -17,7 +17,7 @@ if(isset($data["username"], $data["password"])){
 
     $username = $data["username"];
     $password = $data["password"];
-    $query = "SELECT saltedhash FROM users WHERE username= :username";
+    $query = "SELECT * FROM users WHERE username= :username";
     $query = $db->prepare($query);
         try{
             $query->execute(array(
@@ -34,14 +34,20 @@ if(isset($data["username"], $data["password"])){
         }
         if (password_verify($password, $getSaltedHash)) {
            $allowSess = array(
-                "username" => $username
+                "username" => $username,
+                "id" => $check[0]['id']
            );
         }else{
             exit("Invalid password");
         }
     }
 
-if(isset($allowSess["username"])){
-        echo 'test';
+if(isset($allowSess["username"], $allowSess["id"])){
+        require('../BackEnd/User.php');
+        $user = new User($allowSess["id"]);
+        session_start();
+        $UserID = $user->_ID;
+        $_SESSION['UserID'] = $UserID;
+        exit("1");
     }
 ?>
