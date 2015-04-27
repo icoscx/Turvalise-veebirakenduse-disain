@@ -20,16 +20,19 @@ if(isset($data["username"], $data["password"], $data["email"])){
     //escape SQL injection with prebuilt q
     $query = "INSERT INTO users(username, email, saltedhash) VALUES(:username, :email, :saltedhash)";
     $query = $db->prepare($query);
-    if(!$results = $query->execute(array(
-        ":username" => $username,
-        ":email" => $email,
-        ":saltedhash" => $saltedhash
-    ))){
-        $error = $query->errorInfo();
-        print_r($error[2]);
-        die();
-    }
-    print_r(1);
+        try{
+            $query->execute(array(
+                    ":username" => $username,
+                    ":email" => $email,
+                    ":saltedhash" => $saltedhash
+                ));
+        } catch (PDOException $e){
+            exit($e);
+        } finally {
+            $error = $query->errorInfo();
+            print_r(1);
+            exit($error[2]);
+        }
 
 
 }

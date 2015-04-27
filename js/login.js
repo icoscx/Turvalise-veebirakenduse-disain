@@ -2,7 +2,7 @@ $('form.login-form').on('submit',function(e) {
     e.preventDefault();
 
     //setup input filters
-    var name_regex = /^[a-zA-Z0-9]{3,20}+$/;
+    var name_regex = /^[a-zA-Z0-9]{3,20}$/;
 
     var that = $(this),
         url = that.attr('action'),
@@ -27,7 +27,7 @@ $('form.login-form').on('submit',function(e) {
     }
 
     var refined = JSON.stringify(data);
-    console.log(refined);
+    //console.log(refined);
     console.log('Sending to server..');
     $.ajax({
         url: url,
