@@ -26,7 +26,7 @@ $('form.register-form').on('submit',function(e) {
     if(!data['username'].match(name_regex) || !data['password'].match(name_regex)){
         alert('Invalid username/password [a-z, A-Z, 0-9]');
         return false;
-    }else if(!data['email'].match(email_rsegex)){
+    }else if(!data['email'].match(email_regex)){
         alert('Invalid e-mail');
         return false;
     }

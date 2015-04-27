@@ -47,8 +47,8 @@ if(isset($allowSess["username"], $allowSess["id"])){
         session_start();
         session_regenerate_id();
         $_SESSION['UName'] = $allowSess["username"];
-        $_SESSION['ip'] = $_SERVER['REMOTE_ADDR'];
-
+        $_SESSION['UIp'] = $_SERVER['REMOTE_ADDR'];
+        $_SESSION['UAgent'] = $_SERVER['HTTP_USER_AGENT'];
         session_write_close();
         exit("1");
     }
