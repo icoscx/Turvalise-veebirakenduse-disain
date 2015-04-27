@@ -44,12 +44,12 @@ if(isset($data["username"], $data["password"])){
 //Ehitame sessi
 if(isset($allowSess["username"], $allowSess["id"])){
         require('../BackEnd/User.php');
-        $user = new User($allowSess["id"], $allowSess["username"]);
         session_start();
-        $UserID = $user->_ID;
-        $UName = $user->__UserName;
-        $_SESSION['UserID'] = $UserID;
-        $_SESSION['UName'] = $UserID;
+        session_regenerate_id();
+        $_SESSION['UName'] = $allowSess["username"];
+        $_SESSION['ip'] = $_SERVER['REMOTE_ADDR'];
+
+        session_write_close();
         exit("1");
     }
 ?>

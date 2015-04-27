@@ -4,6 +4,6 @@
 
 session_start();
 
-echo $_SESSION['UserID'];
+echo $_SESSION['UName'];
 
 ?>
