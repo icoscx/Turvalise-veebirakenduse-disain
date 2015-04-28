@@ -15,6 +15,4 @@ if(isset($_GET['logout'])){
     echo endSession();
 }
 
-//echo $_SESSION['UName'];
-
 ?>
