@@ -32,4 +32,24 @@ if(isset($_GET['listItems'])){
         }
 }
 
+if(isset($_GET['item'])){
+    $itemId = $_GET['item'];
+    $query = "SELECT * FROM posts WHERE id= :id";
+    $query = $db->prepare($query);
+        try{
+            $query->execute(array(
+                  ":id" => $itemId
+            ));
+        } catch (PDOException $e) {
+            exit($e);
+        } finally {
+            if(!empty($check = $query->fetchAll(PDO::FETCH_ASSOC))){
+                $encode = json_encode($check);
+                print_r($encode);
+            }else{
+                exit("No data found");
+            }
+        }
+    }
+
 ?>

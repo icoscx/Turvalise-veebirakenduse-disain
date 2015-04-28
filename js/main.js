@@ -56,22 +56,22 @@ function popAddPost(){
 }
 
 function openView(nr){
-
+    if(!$.cookie("username")){
+        location.href='index.html';
+        return false;
+    }
     $.ajax({
-        url: 'cgi-bin/getComplaints.cgi',
+        url: 'cgi-bin/getPosts.cgi',
         type: 'get',
         data: 'item='+nr+'',
+        cache: false,
         success: function(response){
-            console.log(response);
+            //console.log(response);
             var obj = jQuery.parseJSON(response);
             $.each(obj, function(){
-                $('#set_fname').val(this.complainer_fname);
-                $('#set_lname').val(this.complainer_lname);
-                $('#set_date').val(this.time);
-                $('#set_type').val(this.type);
                 $('#set_description').val(this.description);
-                $('#set_address').val(this.complainer_address);
-                $('#viewComplaint').bPopup({
+                $('#set_sdescription').val(this.sdescription);
+                $('#viewPost').bPopup({
                     contentContainer:'.content',
                     position: [500, 50]
                 });
