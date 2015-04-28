@@ -21,7 +21,7 @@
         //Setting up Visual stuff
         $(".ui_actions").append( "Username: " + $.cookie("username") +"  ");
         $(".ui_actions").append('<a class="'+'button glow button-primary'+'"' + 'onclick="'+ 'logout()' + '"' + 'href="' +'#' + '">LogOut</a>');
-        document.getElementById("popAddComplaint").style.display = 'none';
+        document.getElementById("popAddPost").style.display = 'none';
         document.getElementById("viewComplaint").style.display = 'none';
     });
 </script>
@@ -85,63 +85,27 @@
         </div>
     </div>
 </div>
-<div id="popAddComplaint">
+<div id="popAddPost">
     <div id="main_body" >
 
         <div id="form_container">
 
-            <h1><a>Complain Form</a></h1>
-            <form id="sendForm" class="setForm"  method="post" action="cgi-bin/addComplaint.cgi">
+            <h1><a>Post Form</a></h1>
+            <form id="sendForm" class="setForm"  method="post" action="cgi-bin/addPost.cgi">
                 <div class="form_description">
-                    <h2>Complain Form</h2>
+                    <h2>Post Form</h2>
                     <p></p>
                 </div>
-                <ul >
-
-                    <li id="li_1" >
-
-                    </li>		<li id="li_2" >
-                    <label class="description" for="element_2">Your contact information </label>
-		<span>
-			<input id="element_2_1" required="required" name= "fname" class="element text" maxlength="255" size="8" value=""/>
-            <input id="setUser" name="username" type="hidden" value=""/>
-			<label>First Name</label>
-		</span>
-		<span>
-			<input id="element_2_2" required="required" name= "lname" class="element text" maxlength="255" size="14" value=""/>
-			<label>Last Name</label>
-		</span>
-                </li>
-                    </li>		<li id="li_4" >
-                    <label class="description" for="element_4">Address </label>
-
-                    <div>
-                        <input id="element_4_1" required="required" name="address" class="element text large" value="" type="text">
-                        <label for="element_4_1">Street Address</label>
-                    </div>
-
-                </li>		<li id="li_5" >
-                    <label class="description" for="element_5">Date of incident or situation  </label>
-		<span>
-			<input id="element_5_1" type="number" required="required" name="dd" class="element text" size="2" maxlength="2" value="" type="text"> /
-			<label for="element_5_1">DD</label>
-		</span>
-		<span>
-			<input id="element_5_2" type="number" required="required" name="mm" class="element text" size="2" maxlength="2" value="" type="text"> /
-			<label for="element_5_2">MM</label>
-		</span>
-		<span>
-	 		<input id="element_5_3" type="number" required="required" name="yyyy" class="element text" size="4" maxlength="4" value="" type="text">
-			<label for="element_5_3">YYYY</label>
-		</span>
+                <ul >	<li id="li_5" >
+                    <label class="description" for="element_5">Please fill in the form:</label>
 
                 </li>		<li id="li_6" >
-                    <label class="description" for="element_6">Type </label>
+                    <label class="description" for="element_6">Short description </label>
                     <div>
-                        <input required="required" id="element_6" name="type" class="element text medium" type="text" maxlength="255" value=""/>
+                        <input required="required" id="element_6" name="sdescription" class="element text medium" type="text" maxlength="255" value=""/>
                     </div>
                 </li>			<li id="li_7" >
-                    <label class="description" for="element_7">Please describe what happened. Be as detailed as possible. </label>
+                    <label class="description" for="element_7">Detailed information </label>
                     <div>
                         <textarea required="required" id="element_7" name="description" class="element textarea medium"></textarea>
                     </div>
@@ -164,16 +128,17 @@
 </ul>
 </div>
 <div class="ui_actions"></div>
-<div class="button-complaint"><a href="#" onclick="popAddComplaint()" class="button glow button-primary">Add Complaint</a></div>
+<div class="button-complaint"><a href="#" onclick="popAddPost()" class="button glow button-primary">Add Post</a></div>
 <div id='tablesorted'>
 <table class="tablesorter ws_data_table">
 <thead>
   <tr>
-    <th><a href="#" class="button button-primary button-tiny">Case NR #</a></th>
-    <th><a href="#" class="button button-primary button-tiny">Date of Occurance</a></th>
+    <th><a href="#" class="button button-primary button-tiny">Post NR #</a></th>
+    <th><a href="#" class="button button-primary button-tiny">Date posted</a></th>
     <th><a href="#" class="button button-primary button-tiny">Type of activity</a></th>
   </tr>
 </thead>
+    <---- results here ---->
 <tbody id="append_here">
 
 </tbody>

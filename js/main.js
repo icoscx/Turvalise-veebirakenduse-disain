@@ -45,10 +45,18 @@ function logout(){
             console.log(thrownError);
          }
     });
-    //location.href='index.html';
+    //location.href='index.html'; //testimiseks off
     return false;
 }
 
+function popAddPost(){
+    document.getElementById("popAddPost").style.display = 'none';
+    $('#popAddPost').bPopup({
+        contentContainer:'.content',
+        position: [500, 50]
+    });
+    return false;
+}
 
 function openView(nr){
 
@@ -73,15 +81,6 @@ function openView(nr){
             });
         }
     });
-}
-
-function popAddComplaint(){
-    document.getElementById("popAddComplaint").style.display = 'none';
-    $('#popAddComplaint').bPopup({
-        contentContainer:'.content',
-        position: [500, 50]
-    });
-
 }
 
 $('#sendForm').on('submit',function() {
