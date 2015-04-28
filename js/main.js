@@ -1,6 +1,7 @@
 $(document).ready(function(){
     if(!$.cookie("username")){
-        //logout(); //testimiseks off
+        location.href='index.html';
+        return false;
     }
     var setParameter = 'listItems';
     $.ajax({
@@ -9,24 +10,20 @@ $(document).ready(function(){
         data: setParameter,
         cache: false,
         success: function(response){
-            console.log(response);
-
-           // var obj = jQuery.parseJSON(response);
-           // $.each(obj, function(){
-              //  $( "#append_here" ).append( '<tr><td><a href="#" class="button button-tiny" onclick="openView('+ this.complaint_id +')">'+ this.complaint_id +'</a></td><td>'+ this.date +'</td><td>'+ this.type +'</td></tr>' );
-            //});
+            //console.log(response);
+            var obj = jQuery.parseJSON(response);
+            $.each(obj, function(){
+                $( "#append_here" ).append( '<tr><td><a href="#" class="button button-tiny" onclick="openView('+ this.id +')">'+ this.id +'</a></td><td>'+ this.date +'</td><td>'+ this.sdescription +'</td></tr>' );
+            });
         }
     });
 
 });
 
 function logout(){
-    var cookies = $.cookie();
-    for(var cookie in cookies) {
-       $.removeCookie(cookie);
-    }
+
     $.ajax({
-        url: 'cgi-bin/getPosts.cgi',
+        url: 'cgi-bin/logout.cgi',
         type: 'get',
         data: 'logout',
         cache: false,
@@ -34,6 +31,10 @@ function logout(){
             response = $.trim(response);
             console.log(response);
             if(($.trim(response)) == 0){
+                 var cookies = $.cookie();
+                 for(var cookie in cookies) {
+                    $.removeCookie(cookie);
+                 }
                 location.href='index.html';
             }
         },
@@ -42,7 +43,6 @@ function logout(){
             console.log(thrownError);
          }
     });
-    //location.href='index.html'; //testimiseks off
     return false;
 }
 
@@ -60,7 +60,7 @@ function openView(nr){
     $.ajax({
         url: 'cgi-bin/getComplaints.cgi',
         type: 'get',
-        data: 'listitem='+nr+'',
+        data: 'item='+nr+'',
         success: function(response){
             console.log(response);
             var obj = jQuery.parseJSON(response);
