@@ -36,10 +36,12 @@ $('form.login-form').on('submit',function(e) {
         cache: false,
         contentType: "application/json; charset=utf-8",
         success: function(response){
-            console.log(response);
-            if(!response.match(/1/i)){
+            response = $.trim(response);
+            //console.log(response);
+            if(!response.match(name_regex)){
                 alert('Login error, please try again later');
             }else{
+                $.cookie("username", response);
                 location.href='main.html';
             }
         },

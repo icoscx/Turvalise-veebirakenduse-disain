@@ -4,7 +4,7 @@ $('form.register-form').on('submit',function(e) {
 
     //setup input filters
     var name_regex = /^[a-zA-Z0-9]{3,20}$/;
-    var email_regex = /^[\w\-\.\+]{3,20}\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
+    var email_regex = /^[\w\-\.\+]{3,32}\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
 
     var that = $(this),
         url = that.attr('action'),
@@ -24,7 +24,7 @@ $('form.register-form').on('submit',function(e) {
     });
 
     if(!data['username'].match(name_regex) || !data['password'].match(name_regex)){
-        alert('Invalid username/password [a-z, A-Z, 0-9]');
+        alert('Invalid username/password [a-z, A-Z, 0-9] 3-20');
         return false;
     }else if(!data['email'].match(email_regex)){
         alert('Invalid e-mail');
@@ -41,6 +41,7 @@ $('form.register-form').on('submit',function(e) {
         cache: false,
         contentType: "application/json; charset=utf-8",
         success: function(response){
+            response = $.trim(response);
             console.log(response);
             if(response != 1){
                 alert('username already exists');

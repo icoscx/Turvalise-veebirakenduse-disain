@@ -6,6 +6,7 @@ $(document).ready(function(){
         url: 'cgi-bin/getPosts.cgi',
         type: 'get',
         data: setParameter,
+        cache: false,
         success: function(response){
             console.log(response);
            // var obj = jQuery.parseJSON(response);
@@ -16,6 +17,15 @@ $(document).ready(function(){
     });
 
 });
+
+function logout(){
+    var cookies = $.cookie();
+    for(var cookie in cookies) {
+       $.removeCookie(cookie);
+    }
+    location.href='index.html';
+}
+
 
 function openView(nr){
 
@@ -40,12 +50,6 @@ function openView(nr){
             });
         }
     });
-}
-
-
-function deletecookie(){
-    $.removeCookie("username");
-    location.href='index.html';
 }
 
 function popAddComplaint(){

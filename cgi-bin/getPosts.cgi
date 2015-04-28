@@ -9,7 +9,10 @@ if(isset($_GET['listItems'])){
     $ip = $_SESSION['UIp'];
     $useragent = $_SESSION['UAgent'];
 
-    if($_SESSION['UIp'] == $_SERVER['REMOTE_ADDR'] && $_SESSION['UAgent'] == $_SERVER['HTTP_USER_AGENT']){
+    if($_SESSION['UIp'] == $_SERVER['REMOTE_ADDR'] &&
+       $_SESSION['UAgent'] == $_SERVER['HTTP_USER_AGENT'] &&
+       $_SESSION['Id'] == session_id()
+       ){
         echo "all ok";
     }else{
         session_unset();

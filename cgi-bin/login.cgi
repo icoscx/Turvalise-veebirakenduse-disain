@@ -35,21 +35,22 @@ if(isset($data["username"], $data["password"])){
         if (password_verify($password, $getSaltedHash)) {
            $allowSess = array(
                 "username" => $username,
-                "id" => $check[0]['id']
+                "uid" => $check[0]['id']
            );
         }else{
             exit("Invalid password");
         }
     }
 //Ehitame sessi
-if(isset($allowSess["username"], $allowSess["id"])){
+if(isset($allowSess["username"], $allowSess["uid"])){
         require('../BackEnd/User.php');
         session_start();
         session_regenerate_id();
-        $_SESSION['UName'] = $allowSess["username"];
+        $_SESSION['Id'] = session_id();
+        $_SESSION['UName'] = $allowSess['username'];
         $_SESSION['UIp'] = $_SERVER['REMOTE_ADDR'];
         $_SESSION['UAgent'] = $_SERVER['HTTP_USER_AGENT'];
         session_write_close();
-        exit("1");
+        exit($allowSess["username"]);
     }
 ?>

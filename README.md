@@ -1,7 +1,10 @@
 # baka
 
-Ivo Pure 104269
+# Ivo Pure 104269
 
+# ToDO: 
+Cookie , Session timeout, ajax req check , 
+---
 *Kõik POST requestid peavad olema üle https, st TLS nt, SSL3 on buggine ning üldiselt depircated.
 Parooli saatmisel serverisse on ekstra turvalisuse mõttes mõistlik hashida parool, pigem paranoia.
 
@@ -15,14 +18,17 @@ https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet
 The password_hash function returns a string that contains both the hash and the salt.
 ST Username DB-s ei hoia. Hoiame Hsh(PW + Salt) , pärast võrdleme logimisel seda tuletatud hashi
 
-Miinus minul: Kui ei kasutaks PHP sessi:  If you did that, store session data in a database. Sess infi DB eraldi tabel.
+Miinus minul: Kui ei kasutaks PHP sessi:  If you did that, store session data in a database. Sess infi DB eraldi tabel + Unique veerg.
 http://www.thespanner.co.uk/2007/12/02/faking-the-unexpected/   PHP IP
 User agent + SRC ip -> Sess
 
 Change Sess ID on Logon and kill everything on logoff. Set Sess Timeout. 
-Iga AJAX req tuleb KT: req.id, IP, Browser.
+Iga AJAX req tuleb KT: (req.id, sessID), IP, Browser.
 
-Suur viga oleks X-ff-is IP võtta :D
+The PHP session is stored in webserver's memory while JavaScript runs in the webclient (webbrowser). 
+Those are in real world two physically separate and independent machines. They usually can only communicate with each other over network using HTTP protocol.
+
+Suur viga oleks X-ff-is IP võtta, requestide craftimine on väga primitiivne
 
 it's much more complex than that. Your site/service will be accessed by a variety of people with different 
 setups. The first thing that can go wrong is if someone is going through a proxy server. 
@@ -33,18 +39,16 @@ login from Canada and another one from India, there might be an issue. Even then
 
 Ütleme nii, et pole vaja proxytada. Kui inimene ennast proxy taga peidab, siis tal on juba teised eesmärgid.
 
-<?php
-https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet
-$userIp = $_SESSION['userIp'];
-$userAgent = $_SESSION['userAgent'];
+---
+You can also use an additional time stamp to regenerate the session ID periodically to avoid attacks on sessions like session fixation:
 
-if ($userIp != $_SERVER['REMOTE_ADDR'] || $userAgent != $_SERVER['HTTP_USER_AGENT'] {
-    session_destroy();
+if (!isset($_SESSION['CREATED'])) {
+    $_SESSION['CREATED'] = time();
+} else if (time() - $_SESSION['CREATED'] > 1800) {
+    // session started more than 30 minutes ago
+    session_regenerate_id(true);    // change session ID for the current session and invalidate old session ID
+    $_SESSION['CREATED'] = time();  // update creation time
 }
-
-?>
-
-
 ----
 // remove all session variables
 session_unset();
