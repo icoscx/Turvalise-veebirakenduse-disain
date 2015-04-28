@@ -2,8 +2,8 @@
 
 # Ivo Pure 104269
 
-# ToDO: 
-Cookie , Session timeout, ajax req check , 
+# ToDO: Done,
+session timeout? Serverside! koodus pole soovitatav.
 ---
 *Kõik POST requestid peavad olema üle https, st TLS nt, SSL3 on buggine ning üldiselt depircated.
 Parooli saatmisel serverisse on ekstra turvalisuse mõttes mõistlik hashida parool, pigem paranoia.
