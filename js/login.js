@@ -1,3 +1,10 @@
+$(document).ready(function(){
+    var cookies = $.cookie();
+    for(var cookie in cookies) {
+       $.removeCookie(cookie);
+    }
+});
+
 $('form.login-form').on('submit',function(e) {
     e.preventDefault();
 

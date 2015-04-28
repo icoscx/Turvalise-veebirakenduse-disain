@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    if(!$.cookie("username")){
+        //location.href='index.html'; //testimiseks off
+        //return false;
+    }
     var setParameter = 'listItems';
     console.log('Sending to server..');
     console.log(setParameter);
@@ -9,6 +13,7 @@ $(document).ready(function(){
         cache: false,
         success: function(response){
             console.log(response);
+
            // var obj = jQuery.parseJSON(response);
            // $.each(obj, function(){
               //  $( "#append_here" ).append( '<tr><td><a href="#" class="button button-tiny" onclick="openView('+ this.complaint_id +')">'+ this.complaint_id +'</a></td><td>'+ this.date +'</td><td>'+ this.type +'</td></tr>' );
@@ -23,7 +28,25 @@ function logout(){
     for(var cookie in cookies) {
        $.removeCookie(cookie);
     }
-    location.href='index.html';
+    $.ajax({
+        url: 'cgi-bin/getPosts.cgi',
+        type: 'get',
+        data: 'logout',
+        cache: false,
+        success: function(response){
+            response = $.trim(response);
+            console.log(response);
+            if(($.trim(response)) == 0){
+                location.href='index.html';
+            }
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+            console.log(xhr.status);
+            console.log(thrownError);
+         }
+    });
+    //location.href='index.html';
+    return false;
 }
 
 

@@ -2,24 +2,17 @@
 
 <?php
 
+require('../BackEnd/SessionCheck.php');
+
 if(isset($_GET['listItems'])){
 
-    session_start();
-    $username =  $_SESSION['UName'];
-    $ip = $_SESSION['UIp'];
-    $useragent = $_SESSION['UAgent'];
+    echo checkSession();
 
-    if($_SESSION['UIp'] == $_SERVER['REMOTE_ADDR'] &&
-       $_SESSION['UAgent'] == $_SERVER['HTTP_USER_AGENT'] &&
-       $_SESSION['Id'] == session_id()
-       ){
-        echo "all ok";
-    }else{
-        session_unset();
-        $_SESSION=array();
-        session_destroy();
-        exit("403");
-    }
+}
+
+if(isset($_GET['logout'])){
+
+    echo endSession();
 }
 
 //echo $_SESSION['UName'];
