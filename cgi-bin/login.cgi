@@ -6,6 +6,11 @@ require('../BackEnd/SecurityCenter.php');
 
 $sc = new SecurityCenter();
 
+if(!($sc->requestMethodCheck(null))){
+    exit('Get - empty or incorrect parameter - Post - incorrect query');
+}elseif(!$sc->requestHeaderCheck()){
+    exit('Malformed header');
+}
 
 require('../BackEnd/DB.php');
 $data = file_get_contents("php://input");
