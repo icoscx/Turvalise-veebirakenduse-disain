@@ -13,6 +13,7 @@ class SecurityCenter{
                 5 => 'opera'
         );
     //for post, whitelisted static paths
+    private static $test = '/cgi-bin/login.cgi';
     private static $allowedQueries = Array(
             1 => '/cgi-bin/login.cgi',
             2 => '/cgi-bin/register.cgi',
@@ -32,52 +33,67 @@ class SecurityCenter{
 
         //check for potential inject
         if(isset($_SERVER['HTTP_REFERER'])){
-            if((preg_match(self::$urlRegex, $_SERVER['HTTP_REFERER'])) !== 1){
+            if((preg_match(self::$urlRegex, ($this->equalString($_SERVER['HTTP_REFERER'])))) !== 1){
                 //log
+                exit('Referer invalid');
                 return false;
             }
         }
         //we use jquery and ajax, therefore this is required
         if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
             //log
+            exit('not ajax');
             return false;
         
         }
         //we allow whitelisted browsers and are safe from user-agent injects
         if(!isset($_SERVER['HTTP_USER_AGENT'])){
             //log
+            exit('no agent');
             return false;
         }else{
             foreach (self::$browsers as $key => $value) {
 
-                if(!strpos(strtolower($_SERVER['HTTP_USER_AGENT']), self::$browsers[$key] )){
+                if((stripos(strtolower($this->equalString($_SERVER['HTTP_USER_AGENT'])), 
+                        $this->equalString(self::$browsers[$key]))) === false){
                     //log
-                    return false;
+                    continue;
+                }else{
+                    return true;
                 }
             }
+            exit('bad browser');
         }
 
         return true;
     }
-    
+    /**
+     * 
+     * @param type $parameter OPTIONAL, for GET requests. We dont accept empty values, a value must be set
+     * @return boolean Paramater values ok and validated
+     */
     public function requestMethodCheck($parameter){
         //filter invalid paramater values
         if ($_SERVER['REQUEST_METHOD'] === 'GET'){
 
             if(!((isset($_GET[$parameter])) && strlen($_GET[$parameter]) > 0 && (preg_match(self::$queryRegex, $_GET[$parameter])))){
                 return false;
+            }else{
+                return true;
             }
             //same for posts, but allow whitelisted requests only
         }elseif($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SERVER['REQUEST_URI'])){
                     //whitelisted uris only
                 foreach (self::$allowedQueries as $key => $value) {
-                    if(!strcmp(self::$allowedQueries[$key], $_SERVER['REQUEST_URI'])){
-                        //log
+                    if(strcmp($this->equalString(self::$allowedQueries[$key]) , 
+                       $this->equalString($_SERVER['REQUEST_URI'])) !== 0){
+                            //log
                         return false;
+                    }else{
+                        return true;
                     }
                 }
         }
-        return true;
     }
     
     /**
@@ -165,6 +181,15 @@ class SecurityCenter{
             return true;
         }
         return false;
+    }
+    /**
+     * Converts string to the same mapping
+     * @param type $string
+     * @return type utf8 striung
+     */
+    public function equalString($string){
+        
+        return trim(mb_convert_encoding($string, "ISO-8859-1", "UTF-8"));
     }
     
     
