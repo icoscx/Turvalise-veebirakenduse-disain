@@ -1,0 +1,23 @@
+<?php
+
+class SecurityManager{
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+}
+
+
+
+?>

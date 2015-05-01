@@ -43,7 +43,7 @@ $('form.register-form').on('submit',function(e) {
         success: function(response){
             response = $.trim(response);
             console.log(response);
-            if(response != 1){
+            if(response != 200){
                 alert('username already exists');
             }else{
                 location.href='index.html';

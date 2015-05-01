@@ -21,7 +21,7 @@ $(document).ready(function(){
 });
 
 function logout(){
-
+//piisaks sess kypsise kustutamisest, kuid korrektne on lopetada sessioon serveris
     $.ajax({
         url: 'cgi-bin/logout.cgi',
         type: 'get',

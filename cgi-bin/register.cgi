@@ -30,7 +30,7 @@ if(isset($data["username"], $data["password"], $data["email"])){
             exit($e);
         } finally {
             $error = $query->errorInfo();
-            print_r(1);
+            print_r(200);
             exit($error[2]);
         }
 

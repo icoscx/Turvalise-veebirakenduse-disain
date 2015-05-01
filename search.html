@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <title>PostCenter</title>
     <link rel='stylesheet' type='text/css' href='css/styles.css' />
     <link rel='stylesheet' type='text/css' href='css/style.css'/>
     <link rel='stylesheet' type='text/css' href='css/buttons.css' />
@@ -12,15 +13,10 @@
     <script type="text/javascript" src="js/jquery.cookie.js"></script>
     <script type="text/javascript" src="js/pop.js"></script>
     <script type="text/javascript" src="js/view.js"></script>
+    <script type="text/javascript" src="js/renderHtml.js"></script>
+
 </head>
 <body>
-<script>
-    $(document).ready(function(){
-        $(".ui_actions").append( "Username: " + $.cookie("username") +"  ");
-        $(".ui_actions").append('<a class="'+'button glow button-primary'+'"' + 'onclick="'+ 'deletecookie()' + '"' + 'href="' +'#' + '">LogOut</a>');
-        document.getElementById("view").style.display = 'none';
-    });
-</script>
 <div id="view">
     <div id="main_body" >
         <div id="form_container">
