@@ -2,14 +2,13 @@
 
 <?php
 
-//accept ajax requests only
-if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
-        exit("Bad query [no ajax]");
-}else{
-    require('../BackEnd/DB.php');
-    $data = file_get_contents("php://input");
-}
+require('../BackEnd/SecurityCenter.php');
 
+$sc = new SecurityCenter();
+
+
+require('../BackEnd/DB.php');
+$data = file_get_contents("php://input");
 $data = json_decode($data, true);
 
 //check input

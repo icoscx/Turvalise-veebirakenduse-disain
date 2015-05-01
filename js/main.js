@@ -3,7 +3,7 @@ $(document).ready(function(){
         location.href='index.html';
         return false;
     }
-    var setParameter = 'listItems';
+    var setParameter = 'listItems=get';
     $.ajax({
         url: 'cgi-bin/getPosts.cgi',
         type: 'get',

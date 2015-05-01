@@ -1,17 +1,40 @@
 <?php
+//    static  //self
+//    private  //$this->
+class SecurityCenter{
 
-class FunLib{
-
-    public static $urlRegex = "/(^|[\s.:;?\-\]<\(])(https?:\/\/[-\w;\/?:@&=+$\|\_.!~*\|'()\[\]%#,☺]+[\w\/#](\(\))?)(?=$|[\s',\|\(\).:;?\-\[\]>\)])/";
+    //urlcheck
+    private static $urlRegex = "/^(http(?:s)?\\:\\/\\/[a-zA-Z0-9]+(?:(?:\\.|\\-)[a-zA-Z0-9]+)+(?:\\:\\d+)?(?:\\/[\\w\\-]+)*(?:\\/?|\\/\\w+\\.[a-zA-Z]{2,4}(?:\\?[\\w]+\\=[\\w\\-]+)?)?(?:\\&[\\w]+\\=[\\w\\-]+)*)$/";
+    //simple user-agent check
+    private static $browsers = Array(1 => 'msie',
+                2 => 'chrome',
+                3 => 'safari',
+                4 => 'firefox',
+                5 => 'opera'
+        );
+    //for post, whitelisted static paths
+    private static $allowedQueries = Array(
+            1 => '/cgi-bin/login.cgi',
+            2 => '/cgi-bin/register.cgi',
+            3 => '/cgi-bin/logout.cgi',
+            4 => '',
+            5 => '',
+            6 => '',
+        );
+    //get parameter filter
+    private static $queryRegex = "/^[a-zA-Z0-9]+$/";
     
-    
+    /**
+     * Verify http header from client (covers most used vectors 70%)
+     * @return boolean true if header's inject free
+     */
     public function requestHeaderCheck(){
-    //accept ajax requests only
-        //clean field if malicious
+
+        //check for potential inject
         if(isset($_SERVER['HTTP_REFERER'])){
-            if((preg_match($urlRegex, $_SERVER['HTTP_REFERER'])) !== 1){
+            if((preg_match(self::$urlRegex, $_SERVER['HTTP_REFERER'])) !== 1){
                 //log
-                $_SERVER['HTTP_REFERER'] = null;
+                return false;
             }
         }
         //we use jquery and ajax, therefore this is required
@@ -20,13 +43,45 @@ class FunLib{
             return false;
         
         }
-        
-        
+        //we allow whitelisted browsers and are safe from user-agent injects
+        if(!isset($_SERVER['HTTP_USER_AGENT'])){
+            //log
+            return false;
+        }else{
+            foreach (self::$browsers as $key => $value) {
+
+                if(!strpos(strtolower($_SERVER['HTTP_USER_AGENT']), self::$browsers[$key] )){
+                    //log
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+    
+    public function requestMethodCheck($parameter){
+        //filter invalid paramater values
+        if ($_SERVER['REQUEST_METHOD'] === 'GET'){
+
+            if(!((isset($_GET[$parameter])) && strlen($_GET[$parameter]) > 0 && (preg_match(self::$queryRegex, $_GET[$parameter])))){
+                return false;
+            }
+            //same for posts, but allow whitelisted requests only
+        }elseif($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SERVER['REQUEST_URI'])){
+                    //whitelisted uris only
+                foreach (self::$allowedQueries as $key => $value) {
+                    if(!strcmp(self::$allowedQueries[$key], $_SERVER['REQUEST_URI'])){
+                        //log
+                        return false;
+                    }
+                }
+        }
         return true;
     }
     
     /**
-     * Check if session is valid
+     * Check if session is valid (antiHiJack)
      * @return boolean true if is
      */
     public function checkSession(){
