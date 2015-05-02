@@ -1,8 +1,0 @@
-                        echo 'In session:' + ' - ';
-                        echo $ip + ' - ';
-                        echo $useragent + ' - ';
-                        echo $_SESSION['Id'] + ' - ';
-                        echo 'current:' + ' - ';
-                        echo $_SERVER['REMOTE_ADDR'] + ' - ';
-                        echo $_SERVER['HTTP_USER_AGENT'] + ' - ';
-                        echo session_id();
