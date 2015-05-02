@@ -1,0 +1,2069 @@
+Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: /WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: /etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: /Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: \WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: \etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: \Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: c:\WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: c:\etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: c:\Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: c:/WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: c:/etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: c:/Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: /../../../../../../../../../../../../../../../../../WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: /../../../../../../../../../../../../../../../../../etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: /../../../../../../../../../../../../../../../../../Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ../../../../../../../../../../../../../../../../WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ../../../../../../../../../../../../../../../../etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ../../../../../../../../../../../../../../../../Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: thishouldnotexistandhopefullyitwillnot
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:\WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:\etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:\Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:/WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:/etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:/Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /../../../../../../../../../../../../../../../../../WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /../../../../../../../../../../../../../../../../../etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /../../../../../../../../../../../../../../../../../Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ../../../../../../../../../../../../../../../../WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ../../../../../../../../../../../../../../../../etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ../../../../../../../../../../../../../../../../Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: thishouldnotexistandhopefullyitwillnot
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: http://www.google.com/
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: http://www.google.com:80/
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: http://www.google.com
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: http://www.google.com/search?q=OWASP%20ZAP
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: http://www.google.com:80/search?q=OWASP%20ZAP
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: www.google.com/
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: www.google.com:80/
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: www.google.com
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: www.google.com/search?q=OWASP%20ZAP
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: www.google.com:80/search?q=OWASP%20ZAP
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.google.com/search?q=OWASP%20ZAP
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.google.com:80/search?q=OWASP%20ZAP
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: www.google.com/
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: www.google.com:80/
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: www.google.com
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: www.google.com/search?q=OWASP%20ZAP
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: www.google.com:80/search?q=OWASP%20ZAP
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: <!--#EXEC cmd="ls /"-->
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: "><!--#EXEC cmd="ls /"--><
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: <!--#EXEC cmd="dir \"-->
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: "><!--#EXEC cmd="dir \"--><
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: <!--#EXEC cmd="ls /"-->
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: "><!--#EXEC cmd="ls /"--><
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: <!--#EXEC cmd="dir \"-->
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: "><!--#EXEC cmd="dir \"--><
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: 0W45pz4p
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: User-Agent0W45pz4p
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: '"<script>alert(1);</script>
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: 0W45pz4p
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: Referer0W45pz4p
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: '"<script>alert(1);</script>
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: '
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: "
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ;
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: )
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: '
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html'
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: "
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html"
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ;
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html;
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: )
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html)
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html AND 1=1 --
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html' AND '1'='1' --
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html" AND "1"="1" --
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html AND 1=1
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html' AND '1'='1
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html" AND "1"="1
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html UNION ALL select NULL --
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html' UNION ALL select NULL --
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html" UNION ALL select NULL --
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html) UNION ALL select NULL --
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html') UNION ALL select NULL --
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ";print(chr(122).chr(97).chr(112).chr(95).chr(116).chr(111).chr(107).chr(101).chr(110));$var="
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ';print(chr(122).chr(97).chr(112).chr(95).chr(116).chr(111).chr(107).chr(101).chr(110));$var='
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ${@print(chr(122).chr(97).chr(112).chr(95).chr(116).chr(111).chr(107).chr(101).chr(110))}
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ${@print(chr(122).chr(97).chr(112).chr(95).chr(116).chr(111).chr(107).chr(101).chr(110))}\
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: ;print(chr(122).chr(97).chr(112).chr(95).chr(116).chr(111).chr(107).chr(101).chr(110));
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: "+response.write([100,000*100,000)+"
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: +response.write({0}*{1})+
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: response.write(100,000*100,000)
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ";print(chr(122).chr(97).chr(112).chr(95).chr(116).chr(111).chr(107).chr(101).chr(110));$var="
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ';print(chr(122).chr(97).chr(112).chr(95).chr(116).chr(111).chr(107).chr(101).chr(110));$var='
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ${@print(chr(122).chr(97).chr(112).chr(95).chr(116).chr(111).chr(107).chr(101).chr(110))}
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ${@print(chr(122).chr(97).chr(112).chr(95).chr(116).chr(111).chr(107).chr(101).chr(110))}\
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ;print(chr(122).chr(97).chr(112).chr(95).chr(116).chr(111).chr(107).chr(101).chr(110));
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: "+response.write([100,000*100,000)+"
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: +response.write({0}*{1})+
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: response.write(100,000*100,000)
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html&cat /etc/passwd&
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html;cat /etc/passwd;
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html&type %SYSTEMROOT%\win.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html|type %SYSTEMROOT%\win.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html"&cat /etc/passwd&"
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html";cat /etc/passwd;"
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html"&type %SYSTEMROOT%\win.ini&"
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html"|type %SYSTEMROOT%\win.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html'&cat /etc/passwd&'
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html';cat /etc/passwd;'
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html'&type %SYSTEMROOT%\win.ini&'
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html'|type %SYSTEMROOT%\win.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html&sleep 5s&
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html;sleep 5s;
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html&timeout /T 5
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html|timeout /T 5
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html"&sleep 5s&"
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html";sleep 5s;"
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html"&timeout /T 5&"
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html"|timeout /T 5
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html&sleep {0}s&
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html;sleep {0}s;
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html&timeout /T {0}&
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html|timeout /T {0}
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi/
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: 4750617846007967863.owasp.org
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: http://4750617846007967863.owasp.org
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: https://4750617846007967863.owasp.org
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: http:\\4750617846007967863.owasp.org
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: https:\\4750617846007967863.owasp.org
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: //4750617846007967863.owasp.org
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: \\4750617846007967863.owasp.org
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: HtTp://4750617846007967863.owasp.org
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: HtTpS://4750617846007967863.owasp.org
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: 4750617846007967863.owasp.org
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http:\\4750617846007967863.owasp.org
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: https:\\4750617846007967863.owasp.org
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: //4750617846007967863.owasp.org
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \\4750617846007967863.owasp.org
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: HtTp://4750617846007967863.owasp.org
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: HtTpS://4750617846007967863.owasp.org
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: Set-cookie: Tamper=126c1c31-9057-4c88-a749-779fa72e3df1
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: any
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: any?
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: any
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: any?
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: any
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: any?
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: Set-cookie: Tamper=126c1c31-9057-4c88-a749-779fa72e3df1
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: any
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: any?
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: any
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: any?
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: any
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: any?
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: Jakarta Commons-HttpClient/3.1
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: 
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: @
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: +
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: 
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: |
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: 
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: @
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: +
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: 
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: |
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/index.html
+UserAgent: zApPX9sS
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************Method: POST
+ReqTime: 
+QueryString: 
+Connection: keep-alive
+Host: www.localhost.local
+Referer: zApPX10sS
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/login.cgi
+Potential user in danger: 
+Potential user Sess ID: 
+********************************************************************

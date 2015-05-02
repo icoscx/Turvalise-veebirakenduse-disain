@@ -7,6 +7,7 @@ class IDS{
     
     private $path = "../securitylogs/attacks.log";
     private $timeStamp = "";
+    private $logentry = "";
     
     function __construct(){
         
@@ -19,9 +20,10 @@ class IDS{
      * Writes the string to file
      * @param type $write String to write
      */
-    public function write($write){
+    public function write(){
         
-        file_put_contents($this->path,$write,FILE_APPEND);
+        self::buildLogEntry();
+        file_put_contents($this->path,$this->logentry,FILE_APPEND);
         
     }
     
@@ -54,6 +56,12 @@ class IDS{
          $entry .="RequestedURI: ";
          $entry .=(string)$_SERVER['REQUEST_URI'];
          $entry .="\n";
+         $entry .="Potential user in danger: ";
+         $entry .=(string)$_SESSION['UName']; 
+         $entry .="\n";
+         $entry .="Potential user Sess ID: ";
+         $entry .=$_SESSION['Id'];
+         $entry .="\n";
          
          if($payload){
              
@@ -65,7 +73,7 @@ class IDS{
 
          $entry .="********************************************************************";
 
-         return $entry;
+         $this->logentry = $entry;
         
     }
    

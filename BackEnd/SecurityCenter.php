@@ -1,8 +1,13 @@
 <?php
 //    static  //self
 //    private  //$this->
-class SecurityCenter{
+require('/SecurityIDS.php');
 
+class SecurityCenter extends IDS{
+
+    function __construct(){
+        parent::__construct();
+    }
     //urlcheck
     private static $urlRegex = "/^(http(?:s)?\\:\\/\\/[a-zA-Z0-9]+(?:(?:\\.|\\-)[a-zA-Z0-9]+)+(?:\\:\\d+)?(?:\\/[\\w\\-]+)*(?:\\/?|\\/\\w+\\.[a-zA-Z]{2,4}(?:\\?[\\w]+\\=[\\w\\-]+)?)?(?:\\&[\\w]+\\=[\\w\\-]+)*)$/";
     //simple user-agent check binary match
@@ -34,6 +39,7 @@ class SecurityCenter{
         if(isset($_SERVER['HTTP_REFERER'])){
             if((preg_match(self::$urlRegex, ($this->equalString($_SERVER['HTTP_REFERER'])))) !== 1){
                 //log
+                parent::write();
                 exit('Referer invalid');
                 return false;
             }
@@ -41,6 +47,7 @@ class SecurityCenter{
         //we use jquery and ajax, therefore this is required
         if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
             //log
+            parent::write();
             exit('not ajax');
             return false;
         
@@ -48,6 +55,7 @@ class SecurityCenter{
         //we allow whitelisted browsers and are safe from user-agent injects
         if(!isset($_SERVER['HTTP_USER_AGENT'])){
             //log
+            parent::write();
             exit('no agent');
             return false;
         }else{
@@ -55,12 +63,13 @@ class SecurityCenter{
 
                 if((stripos(strtolower($this->equalString($_SERVER['HTTP_USER_AGENT'])), 
                         $this->equalString(self::$browsers[$key]))) === false){
-                    //log
+                    
                     continue;
                 }else{
                     return true;
                 }
             }
+            parent::write();
             exit('bad browser');
             return false;        
         }
@@ -77,6 +86,7 @@ class SecurityCenter{
         if ($_SERVER['REQUEST_METHOD'] === 'GET'){
                
             if(!((isset($_GET[$parameter])) && strlen($_GET[$parameter]) > 0 && (preg_match(self::$queryRegex, $_GET[$parameter])))){
+                parent::write();
                 return false;
             }else{
                 return true;
@@ -92,6 +102,7 @@ class SecurityCenter{
                         return true;
                     }
                 }
+                parent::write();
                 return false;
         }
     }
@@ -116,6 +127,7 @@ class SecurityCenter{
             session_unset();
             $_SESSION=array();
             session_destroy();
+            parent::write();
             return false;
         }
 
