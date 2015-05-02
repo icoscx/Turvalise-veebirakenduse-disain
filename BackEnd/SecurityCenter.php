@@ -1,9 +1,9 @@
 <?php
 //    static  //self
 //    private  //$this->
-require('/SecurityIDS.php');
+require('/SecurityIPS.php');
 
-class SecurityCenter extends IDS{
+class SecurityCenter extends IPS{
 
     function __construct(){
         parent::__construct();
@@ -39,24 +39,21 @@ class SecurityCenter extends IDS{
         if(isset($_SERVER['HTTP_REFERER'])){
             if((preg_match(self::$urlRegex, ($this->equalString($_SERVER['HTTP_REFERER'])))) !== 1){
                 //log
-                parent::write();
-                exit('Referer invalid');
+                parent::write('Referer value malicious or invalid', false);
                 return false;
             }
         }
         //we use jquery and ajax, therefore this is required
         if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
             //log
-            parent::write();
-            exit('not ajax');
+            parent::write('Potential bad request: No ajax header detected', false);
             return false;
         
         }
         //we allow whitelisted browsers and are safe from user-agent injects
         if(!isset($_SERVER['HTTP_USER_AGENT'])){
             //log
-            parent::write();
-            exit('no agent');
+            parent::write('No user-agent detected, malicious request', false);
             return false;
         }else{
             foreach (self::$browsers as $key => $value) {
@@ -69,8 +66,7 @@ class SecurityCenter extends IDS{
                     return true;
                 }
             }
-            parent::write();
-            exit('bad browser');
+            parent::write('Malicious user agent value', false);
             return false;        
         }
 
@@ -86,7 +82,7 @@ class SecurityCenter extends IDS{
         if ($_SERVER['REQUEST_METHOD'] === 'GET'){
                
             if(!((isset($_GET[$parameter])) && strlen($_GET[$parameter]) > 0 && (preg_match(self::$queryRegex, $_GET[$parameter])))){
-                parent::write();
+                parent::write('Get param value missing or malformed, bad request',false);
                 return false;
             }else{
                 return true;
@@ -102,7 +98,7 @@ class SecurityCenter extends IDS{
                         return true;
                     }
                 }
-                parent::write();
+                parent::write('Invalid and malformed malicious Post request', false);
                 return false;
         }
     }
@@ -127,7 +123,7 @@ class SecurityCenter extends IDS{
             session_unset();
             $_SESSION=array();
             session_destroy();
-            parent::write();
+            parent::write('Potential Hijacker', false);
             return false;
         }
 
@@ -177,6 +173,7 @@ class SecurityCenter extends IDS{
         preg_replace('/"(\\.|[^"\\\\])*"/', '', $string))){
             return true;
         }
+        parent::write('JSON string invalid, broken structure', $string);
         return false;
     }
     
@@ -194,8 +191,8 @@ class SecurityCenter extends IDS{
         
         if(!empty($filterdReverse)){
             foreach ($filterdReverse as $value => $key) {      
-                $filterdReverse[$value];
                 //send to log
+                parent::write('MALICIOUS-bad key value(s)', $filterdReverse[$value]);
             }
         }
         if(!$strickt){
@@ -209,12 +206,11 @@ class SecurityCenter extends IDS{
         }
         if(!empty($filterdArray)){
             foreach ($filterdArray as $key => $value) {      
-                $filterdArray[$key];
                 //send to log
+                parent::write('MALICIOUS-bad paramater value(s)', $filterdArray[$key]);
             }
         }
 
-        
         //PREG_GREP_INVERT keep the invalid array elements, no invalid find set true
         if(empty($filterdReverse) && empty($filterdArray)){
             

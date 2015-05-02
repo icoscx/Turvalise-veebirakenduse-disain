@@ -2,7 +2,7 @@
 
 require('../BackEnd/SecurityIDS.php');
 
-$ids = new IDS();
+$ids = new IPS();
 
 $entry = $ids->buildLogEntry();
 $ids->write($entry);

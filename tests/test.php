@@ -6,11 +6,12 @@ function jsonCheck($string)
         preg_replace('/"(\\.|[^"\\\\])*"/', '', $string));
 }
 
-echo is_json(json_encode(Array("ID" => 1,
-								1 => "mees",
-								"e-mail" => "ohsindemaili@mal.ee",
-								"post" => "-.,!?",
-								"ss" => Array("2" => "ssss")
-)));
+var_dump(jsonCheck(json_encode(Array("ID" => 1,
+                            1 => "mees",
+                            "e-mail" => "ohsindemaili@mal.ee",
+                            "post" => "-.,!?",
+                            "ss" => Array("2" => "ssss")
+))));
+
 
 ?>
