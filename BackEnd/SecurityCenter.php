@@ -17,11 +17,11 @@ class SecurityCenter{
             1 => '/cgi-bin/login.cgi',
             2 => '/cgi-bin/register.cgi',
             3 => '/cgi-bin/logout.cgi',
-            4 => '',
-            5 => '',
-            6 => '',
+            4 => '/cgi-bin/addPost.cgi',
+            5 => '/cgi-bin/getPosts.cgi',
+            6 => '/cgi-bin/search.cgi',
         );
-    //get parameter filter
+    //get parameter value filter (empty not allowed)
     private static $queryRegex = "/^[a-zA-Z0-9]+$/";
     
     /**
@@ -75,7 +75,7 @@ class SecurityCenter{
     public function requestMethodCheck($parameter){
         //filter invalid paramater values
         if ($_SERVER['REQUEST_METHOD'] === 'GET'){
-
+               
             if(!((isset($_GET[$parameter])) && strlen($_GET[$parameter]) > 0 && (preg_match(self::$queryRegex, $_GET[$parameter])))){
                 return false;
             }else{
@@ -85,14 +85,14 @@ class SecurityCenter{
         }elseif($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SERVER['REQUEST_URI'])){
                     //whitelisted uris only
                 foreach (self::$allowedQueries as $key => $value) {
+                    
                     if(strcmp($this->equalString(self::$allowedQueries[$key]) , 
-                       $this->equalString($_SERVER['REQUEST_URI'])) !== 0){
+                       $this->equalString($_SERVER['REQUEST_URI'])) === 0){
                             //log
-                        return false;
-                    }else{
                         return true;
                     }
                 }
+                return false;
         }
     }
     
@@ -139,6 +139,21 @@ class SecurityCenter{
         return true;
         
     }
+    /**
+     * Build the session
+     * @param type $uname costum param username
+     */
+    public function startSession($uname){
+        
+        session_start();
+        session_regenerate_id();
+        $_SESSION['Id'] = session_id();
+        $_SESSION['UName'] = $uname;
+        $_SESSION['UIp'] = $_SERVER['REMOTE_ADDR'];
+        $_SESSION['UAgent'] = $_SERVER['HTTP_USER_AGENT'];
+        session_write_close();
+           
+    }
     
     /**
      * Checks only the structure of json string
@@ -158,12 +173,12 @@ class SecurityCenter{
      * @param type $arr array to validate
      * @return boolean true if array matches regex
      */
-    public function checkArray($arr){
+    public function checkArray($arr, $strickt){
         
         $filterdReverse = Array();
         $filterdArray = Array();
         
-        $filterdReverse = preg_grep("/^[a-zA-Z]+$/", array_keys($arr), PREG_GREP_INVERT);
+        $filterdReverse = preg_grep("/^[a-zA-Z0-9]+$/", array_keys($arr), PREG_GREP_INVERT);
         
         if(!empty($filterdReverse)){
             foreach ($filterdReverse as $value => $key) {      
@@ -171,15 +186,22 @@ class SecurityCenter{
                 //send to log
             }
         }
-        
-        $filterdArray = preg_grep("/^[a-zA-Z0-9]+$/", $arr, PREG_GREP_INVERT);
-        
+        if(!$strickt){
+            
+            $filterdArray = preg_grep("/^[\s*a-zA-Z0-9,\s\-\?\!\@\.+\s]+$/", $arr, PREG_GREP_INVERT);
+            
+        }else{
+            
+            $filterdArray = preg_grep("/^[a-zA-Z0-9]+$/", $arr, PREG_GREP_INVERT);
+            
+        }
         if(!empty($filterdArray)){
             foreach ($filterdArray as $key => $value) {      
                 $filterdArray[$key];
                 //send to log
             }
         }
+
         
         //PREG_GREP_INVERT keep the invalid array elements, no invalid find set true
         if(empty($filterdReverse) && empty($filterdArray)){

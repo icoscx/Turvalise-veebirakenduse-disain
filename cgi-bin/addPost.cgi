@@ -2,21 +2,15 @@
 
 <?php
 
-//accept ajax requests only
-if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
-    exit("Bad query [no ajax]");
-}else{
-    require('../BackEnd/SessionCheck.php');
-}
+require('../BackEnd/SecurityManager.php');
+//null = post
+$security = new SecurityManager(null);
+$security->validateSession();
+//Post: if true = strict check, false = allow whitespace and -.!@
+$security->initializeSecurity(false);
+$data = $security->getVerifiedInput();
 
-if(checkSession() !== "200" && checkSession() === "403"){
-    exit("Bad query [no sess]");
-}else{
-    require('../BackEnd/DB.php');
-    $data = file_get_contents("php://input");
-}
-
-$data = json_decode($data, true);
+require('../BackEnd/DB.php');
 
 if(isset($data["sdescription"], $data["description"])){
 

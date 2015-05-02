@@ -2,22 +2,19 @@
 
 <?php
 
-//accept ajax requests only
-if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
-    exit("Bad query [no ajax]");
-}else{
-    require('../BackEnd/SessionCheck.php');
-}
+require('../BackEnd/SecurityManager.php');
+//null = post
+$expectedGet = 'logout';
+$security = new SecurityManager($expectedGet);
+$security->validateSession();
+//Post: if true = strict check, false = allow whitespace and -.!@
+$security->initializeSecurity(true);
 
-if(checkSession() !== "200" && checkSession() === "403"){
-    exit("Bad query [no sess]");
-}else{
-    require('../BackEnd/DB.php');
-}
+if(isset($_GET[$expectedGet])){
 
-if(isset($_GET['logout'])){
-
-    print_r(endSession());
+    if($security->endSession()){
+        print_r(0);
+    }
 }
 
 ?>

@@ -4,7 +4,7 @@
 
 require('../BackEnd/SecurityManager.php');
 //null = post
-$expectedGet = 'listItems';
+$expectedGet = 'item';
 $security = new SecurityManager($expectedGet);
 $security->validateSession();
 //Post: if true = strict check, false = allow whitespace and -.!@
@@ -13,11 +13,13 @@ $security->initializeSecurity(true);
 require('../BackEnd/DB.php');
 
 if(isset($_GET[$expectedGet])){
-
-    $query = "SELECT * FROM posts";
+    $itemId = $_GET[$expectedGet];
+    $query = "SELECT * FROM posts WHERE id= :id";
     $query = $db->prepare($query);
         try{
-            $query->execute();
+            $query->execute(array(
+                  ":id" => $itemId
+            ));
         } catch (PDOException $e) {
             exit($e);
         } finally {
@@ -28,6 +30,6 @@ if(isset($_GET[$expectedGet])){
                 exit("No data found");
             }
         }
-}
+    }
 
 ?>

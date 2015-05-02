@@ -42,7 +42,7 @@ $('form.register-form').on('submit',function(e) {
         contentType: "application/json; charset=utf-8",
         success: function(response){
             response = $.trim(response);
-            console.log(response);
+            //console.log(response);
             if(response != 200){
                 alert('username already exists');
             }else{

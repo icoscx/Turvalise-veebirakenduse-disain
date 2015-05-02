@@ -25,11 +25,11 @@ function logout(){
     $.ajax({
         url: 'cgi-bin/logout.cgi',
         type: 'get',
-        data: 'logout',
+        data: 'logout=do',
         cache: false,
         success: function(response){
             response = $.trim(response);
-            console.log(response);
+            //console.log(response);
             if(($.trim(response)) == 0){
                  var cookies = $.cookie();
                  for(var cookie in cookies) {
@@ -61,7 +61,7 @@ function openView(nr){
         return false;
     }
     $.ajax({
-        url: 'cgi-bin/getPosts.cgi',
+        url: 'cgi-bin/getItem.cgi',
         type: 'get',
         data: 'item='+nr+'',
         cache: false,
@@ -112,7 +112,8 @@ $('#sendForm').on('submit',function(e) {
     }
 
     var refined = JSON.stringify(data);
-    //console.log(refined);
+//    console.log('Sending to server...');
+//    console.log(refined);
     $.ajax({
         url: url,
         type: type,

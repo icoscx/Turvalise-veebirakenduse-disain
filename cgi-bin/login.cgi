@@ -2,23 +2,14 @@
 
 <?php
 
-require('../BackEnd/SecurityCenter.php');
-
-$sc = new SecurityCenter();
-
-if(!($sc->requestMethodCheck(null))){
-    exit('Get - empty or incorrect parameter - Post - incorrect query');
-}elseif(!$sc->requestHeaderCheck()){
-    exit('Malformed header');
-}elseif(!($sc->jsonCheck($data = file_get_contents("php://input")))){
-    exit('Invalid string recieved (excpecting json structure)');
-}elseif(!($sc->checkArray($data = json_decode($data, true)))){
-    
-}
+require('../BackEnd/SecurityManager.php');
+//null = post
+$security = new SecurityManager(null);
+//Post: if true = strict check, false = allow whitespace and -.!@
+$security->initializeSecurity(true);
+$data = $security->getVerifiedInput();
 
 require('../BackEnd/DB.php');
-
-
 
 //check input
 if(isset($data["username"], $data["password"])){
@@ -51,13 +42,9 @@ if(isset($data["username"], $data["password"])){
     }
 //Ehitame sessi
 if(isset($allowSess["username"], $allowSess["uid"])){
-        session_start();
-        session_regenerate_id();
-        $_SESSION['Id'] = session_id();
-        $_SESSION['UName'] = $allowSess['username'];
-        $_SESSION['UIp'] = $_SERVER['REMOTE_ADDR'];
-        $_SESSION['UAgent'] = $_SERVER['HTTP_USER_AGENT'];
-        session_write_close();
-        exit($allowSess["username"]);
-    }
+    
+    $security->startSession($allowSess['username']);
+    
+    exit($allowSess["username"]);
+}
 ?>
