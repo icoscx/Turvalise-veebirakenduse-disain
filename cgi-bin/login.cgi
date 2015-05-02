@@ -10,11 +10,15 @@ if(!($sc->requestMethodCheck(null))){
     exit('Get - empty or incorrect parameter - Post - incorrect query');
 }elseif(!$sc->requestHeaderCheck()){
     exit('Malformed header');
+}elseif(!($sc->jsonCheck($data = file_get_contents("php://input")))){
+    exit('Invalid string recieved (excpecting json structure)');
+}elseif(!($sc->checkArray($data = json_decode($data, true)))){
+    
 }
 
 require('../BackEnd/DB.php');
-$data = file_get_contents("php://input");
-$data = json_decode($data, true);
+
+
 
 //check input
 if(isset($data["username"], $data["password"])){

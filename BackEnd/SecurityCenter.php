@@ -5,15 +5,14 @@ class SecurityCenter{
 
     //urlcheck
     private static $urlRegex = "/^(http(?:s)?\\:\\/\\/[a-zA-Z0-9]+(?:(?:\\.|\\-)[a-zA-Z0-9]+)+(?:\\:\\d+)?(?:\\/[\\w\\-]+)*(?:\\/?|\\/\\w+\\.[a-zA-Z]{2,4}(?:\\?[\\w]+\\=[\\w\\-]+)?)?(?:\\&[\\w]+\\=[\\w\\-]+)*)$/";
-    //simple user-agent check
+    //simple user-agent check binary match
     private static $browsers = Array(1 => 'msie',
                 2 => 'chrome',
                 3 => 'safari',
                 4 => 'firefox',
                 5 => 'opera'
         );
-    //for post, whitelisted static paths
-    private static $test = '/cgi-bin/login.cgi';
+    //for post, whitelisted static paths e.g /cgi-bin/login.cgi?malicios&stuff not
     private static $allowedQueries = Array(
             1 => '/cgi-bin/login.cgi',
             2 => '/cgi-bin/register.cgi',
@@ -63,6 +62,7 @@ class SecurityCenter{
                 }
             }
             exit('bad browser');
+            return false;        
         }
 
         return true;
@@ -141,7 +141,7 @@ class SecurityCenter{
     }
     
     /**
-     * 
+     * Checks only the structure of json string
      * @param type $string json encoded string
      * @return true if matches, false if error
      */
@@ -154,7 +154,7 @@ class SecurityCenter{
     }
     
     /**
-     * 
+     * We validate both, keys and values
      * @param type $arr array to validate
      * @return boolean true if array matches regex
      */
@@ -162,23 +162,31 @@ class SecurityCenter{
         
         $filterdReverse = Array();
         $filterdArray = Array();
+        
         $filterdReverse = preg_grep("/^[a-zA-Z]+$/", array_keys($arr), PREG_GREP_INVERT);
         
-        foreach ($filterdArr as $value => $key) {      
-            $filterdArr[$value];
-            //send to log
+        if(!empty($filterdReverse)){
+            foreach ($filterdReverse as $value => $key) {      
+                $filterdReverse[$value];
+                //send to log
+            }
         }
         
         $filterdArray = preg_grep("/^[a-zA-Z0-9]+$/", $arr, PREG_GREP_INVERT);
         
-        foreach ($filterdArr as $key => $value) {      
-            $filterdArr[$key];
-            //send to log
+        if(!empty($filterdArray)){
+            foreach ($filterdArray as $key => $value) {      
+                $filterdArray[$key];
+                //send to log
+            }
         }
-        //PREG_GREP_INVERT keep the invalid array elements
+        
+        //PREG_GREP_INVERT keep the invalid array elements, no invalid find set true
         if(empty($filterdReverse) && empty($filterdArray)){
             
             return true;
+        }else{
+            return false;
         }
         return false;
     }
