@@ -130,10 +130,10 @@ class SecurityCenter extends IPS{
            ){
             return true;
         }else{
+            parent::write('Session: unexpected or changed client paramaters  (invalid Client IP or User agent or sess ID) detected', false);
             session_unset();
             $_SESSION=array();
             session_destroy();
-            parent::write('Session: unexpected or changed client paramaters  (invalid Client IP or User agent or sess ID) detected', false);
             return false;
         }
 
