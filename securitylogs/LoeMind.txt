@@ -1,0 +1,7 @@
+﻿HTTP POST ja GET headerite inspektsioon
+
+POST headeri andmed (payload) toodeldakse ka l2bi
+Kas on json ja kas array v6ti JA v22rtus ok
+
+*****MALICIOUS PAYLOAD******
+{"username":"/WEB-INF\\web.xml","password":"ivo"}
