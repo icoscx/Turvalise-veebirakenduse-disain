@@ -1,0 +1,1545 @@
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=%2FWEB-INF%5Cweb.xml&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%2FWEB-INF%5Cweb.xml&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=%2Fetc%2Fpasswd&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%2Fetc%2Fpasswd&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=%2FWindows%5Csystem.ini&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%2FWindows%5Csystem.ini&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=%5CWEB-INF%5Cweb.xml&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%5CWEB-INF%5Cweb.xml&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=%5Cetc%2Fpasswd&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%5Cetc%2Fpasswd&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=%5CWindows%5Csystem.ini&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%5CWindows%5Csystem.ini&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=c%3A%5CWEB-INF%5Cweb.xml&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=c%3A%5CWEB-INF%5Cweb.xml&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=c%3A%5Cetc%2Fpasswd&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=c%3A%5Cetc%2Fpasswd&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=c%3A%5CWindows%5Csystem.ini&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=c%3A%5CWindows%5Csystem.ini&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=c%3A%2FWEB-INF%5Cweb.xml&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=c%3A%2FWEB-INF%5Cweb.xml&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:51] 
+QueryString: listItems=c%3A%2Fetc%2Fpasswd&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=c%3A%2Fetc%2Fpasswd&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=c%3A%2FWindows%5Csystem.ini&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=c%3A%2FWindows%5Csystem.ini&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWEB-INF%5Cweb.xml&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWEB-INF%5Cweb.xml&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%5Csystem.ini&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%5Csystem.ini&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWEB-INF%5Cweb.xml&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWEB-INF%5Cweb.xml&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWEB-INF%5Cweb.xml&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWEB-INF%5Cweb.xml&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%5Csystem.ini&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%5Csystem.ini&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWEB-INF%5Cweb.xml&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWEB-INF%5Cweb.xml&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:52] 
+QueryString: listItems=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:53] 
+QueryString: listItems=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:53] 
+QueryString: listItems=thishouldnotexistandhopefullyitwillnot&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=thishouldnotexistandhopefullyitwillnot&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:54] 
+QueryString: listItems=get&_=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWEB-INF%5Cweb.xml
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWEB-INF%5Cweb.xml
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:54] 
+QueryString: listItems=get&_=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:54] 
+QueryString: listItems=get&_=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%5Csystem.ini
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%5Csystem.ini
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:54] 
+QueryString: listItems=get&_=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWEB-INF%5Cweb.xml
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWEB-INF%5Cweb.xml
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:54] 
+QueryString: listItems=get&_=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:54] 
+QueryString: listItems=get&_=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:54] 
+QueryString: listItems=get&_=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWEB-INF%5Cweb.xml
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWEB-INF%5Cweb.xml
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:54] 
+QueryString: listItems=get&_=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:54] 
+QueryString: listItems=get&_=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%5Csystem.ini
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%5Csystem.ini
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWEB-INF%5Cweb.xml
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWEB-INF%5Cweb.xml
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=thishouldnotexistandhopefullyitwillnot
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=thishouldnotexistandhopefullyitwillnot
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: /WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: /etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: /Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: \WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: \etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: \Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: c:\WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:55] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: c:\etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: c:\Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: c:/WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: c:/etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: c:/Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: /../../../../../../../../../../../../../../../../../WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: /../../../../../../../../../../../../../../../../../etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: /../../../../../../../../../../../../../../../../../Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: ../../../../../../../../../../../../../../../../WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: ../../../../../../../../../../../../../../../../etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:56] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: ../../../../../../../../../../../../../../../../Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WEB-INF\web.xml
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\etc/passwd
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\Windows\system.ini
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Malicious user agent value[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: thishouldnotexistandhopefullyitwillnot
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:\WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:\etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:57] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:\Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:/WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:/etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: c:/Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /../../../../../../../../../../../../../../../../../WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /../../../../../../../../../../../../../../../../../etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: /../../../../../../../../../../../../../../../../../Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: \..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ../../../../../../../../../../../../../../../../WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ../../../../../../../../../../../../../../../../etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:58] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ../../../../../../../../../../../../../../../../Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:59] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WEB-INF\web.xml
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:59] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\etc/passwd
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:59] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: ..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\Windows\system.ini
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Referer value malicious or invalid[***]
+Method: GET
+ReqTime: 03.05.2015-[19:09:59] 
+QueryString: listItems=get&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: thishouldnotexistandhopefullyitwillnot
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:04] 
+QueryString: listItems=http%3A%2F%2Fwww.google.com%2F&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=http%3A%2F%2Fwww.google.com%2F&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:04] 
+QueryString: listItems=http%3A%2F%2Fwww.google.com%3A80%2F&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=http%3A%2F%2Fwww.google.com%3A80%2F&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:04] 
+QueryString: listItems=http%3A%2F%2Fwww.google.com&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=http%3A%2F%2Fwww.google.com&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:04] 
+QueryString: listItems=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DOWASP%2520ZAP&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DOWASP%2520ZAP&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:04] 
+QueryString: listItems=http%3A%2F%2Fwww.google.com%3A80%2Fsearch%3Fq%3DOWASP%2520ZAP&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=http%3A%2F%2Fwww.google.com%3A80%2Fsearch%3Fq%3DOWASP%2520ZAP&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:05] 
+QueryString: listItems=www.google.com%2F&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=www.google.com%2F&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:05] 
+QueryString: listItems=www.google.com%3A80%2F&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=www.google.com%3A80%2F&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:05] 
+QueryString: listItems=www.google.com&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=www.google.com&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:05] 
+QueryString: listItems=www.google.com%2Fsearch%3Fq%3DOWASP%2520ZAP&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=www.google.com%2Fsearch%3Fq%3DOWASP%2520ZAP&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: Get param value missing or malformed, bad request[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:05] 
+QueryString: listItems=www.google.com%3A80%2Fsearch%3Fq%3DOWASP%2520ZAP&_=1430669383047
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=www.google.com%3A80%2Fsearch%3Fq%3DOWASP%2520ZAP&_=1430669383047
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:05] 
+QueryString: listItems=get&_=http%3A%2F%2Fwww.google.com%2F
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=http%3A%2F%2Fwww.google.com%2F
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:05] 
+QueryString: listItems=get&_=http%3A%2F%2Fwww.google.com%3A80%2F
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=http%3A%2F%2Fwww.google.com%3A80%2F
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:05] 
+QueryString: listItems=get&_=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DOWASP%2520ZAP
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DOWASP%2520ZAP
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:05] 
+QueryString: listItems=get&_=http%3A%2F%2Fwww.google.com%3A80%2Fsearch%3Fq%3DOWASP%2520ZAP
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=http%3A%2F%2Fwww.google.com%3A80%2Fsearch%3Fq%3DOWASP%2520ZAP
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+
+
+[***]PREVENTED THREAT TYPE: malformed, bad request, unexpected URI[***]
+Method: GET
+ReqTime: 03.05.2015-[19:10:06] 
+QueryString: listItems=get&_=www.google.com%2Fsearch%3Fq%3DOWASP%2520ZAP
+Connection: keep-alive
+Host: www.localhost.local
+Referer: http://www.localhost.local/main.html
+UserAgent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0
+RemoteAddress: 192.168.0.12
+RequestedURI: /cgi-bin/getPosts.cgi?listItems=get&_=www.google.com%2Fsearch%3Fq%3DOWASP%2520ZAP
+Potential user in danger: ivo
+Potential user Sess ID: bda38b5k2tqijk9m9p24u4e2n6
+********************************************************************
+

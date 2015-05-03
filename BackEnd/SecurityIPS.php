@@ -29,6 +29,7 @@ class IPS{
      */
     public function buildLogEntry($threat, $payload){
         
+        session_start();
         date_default_timezone_set('EET');
         $entry = "\n[***]PREVENTED THREAT TYPE: ";
         $entry .= $threat;
