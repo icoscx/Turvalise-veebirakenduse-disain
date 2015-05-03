@@ -7,6 +7,7 @@
 class IPS{
     
     private $path = "../securitylogs/attacks.log";
+    private $top = "../securitylogs/topIPsHitCount.log";
     private $logentry = "";
     
     function __construct(){}
@@ -21,7 +22,11 @@ class IPS{
         file_put_contents($this->path,$this->logentry,FILE_APPEND);
         
     }
-    
+    /**
+     * Builds logline
+     * @param type $threat threat description
+     * @param type $payload if payload exitst (post req) write malicious payload to log
+     */
     public function buildLogEntry($threat, $payload){
         
         date_default_timezone_set('EET');
@@ -72,6 +77,31 @@ class IPS{
         $entry .="********************************************************************\n\n";
 
         $this->logentry = $entry;
+        
+        self::statisticsTop();
+    }
+    
+    public function statisticsTop(){
+        
+        $ip = $_SERVER['REMOTE_ADDR'];
+        if(file_exists($this->top)){
+            //get and append
+            $data = file_get_contents($this->top);
+            if(strlen($data) > 0){
+                $data = json_decode($data, true);
+                if(array_key_exists($ip, $data)){
+                    $data[$ip] = $data[$ip] + 1;
+                }else{
+                    $data[$ip] = 1;
+                }
+            }
+            file_put_contents($this->top,json_encode($data));
+        }else{
+            //write $_SERVER['REMOTE_ADDR']
+            $line = Array();
+            $line[$ip] = 1;
+            file_put_contents($this->top,json_encode($line));
+        }
         
     }
    

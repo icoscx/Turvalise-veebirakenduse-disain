@@ -5,10 +5,13 @@
 require('../BackEnd/SecurityManager.php');
 //null = post
 $expectedGet = 'item';
-$security = new SecurityManager($expectedGet);
-$security->validateSession();
+$expectedLength = 60;
+$security = new SecurityManager($expectedGet, $expectedLength);
 //Post: if true = strict check, false = allow whitespace and -.!@
 $security->initializeSecurity(true);
+//IDEAALSELT peaks olema session check ennem, aga kuna me tahame tuvastada erinevaid
+//ryndeid, siis checkime sessi peale inputi
+$security->validateSession();
 
 require('../BackEnd/DB.php');
 

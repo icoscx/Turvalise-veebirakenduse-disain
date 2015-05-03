@@ -17,59 +17,35 @@
 
 </head>
 <body>
-<div id="view">
+<div id="viewPost">
     <div id="main_body" >
+
         <div id="form_container">
-            <h1><a>Complain Form</a></h1>
+
+            <h1><a>Post Form</a></h1>
             <form id="detailview" class="setForm"  method="post" action="">
                 <div class="form_description">
-                    <h2>View Complain</h2>
+                    <h2>Post Form</h2>
                     <p></p>
                 </div>
-                <ul >
-                    <li id="li_1" >
-                    </li>		<li id="li_2" >
-                    <label class="description" for="element_2">Your contact information </label>
-		<span>
-			<input id="set_fname" required="required" readonly name= "fname" class="element text" maxlength="255" size="8" value=""/>
-            <input id="set_user" name="username" type="hidden" value=""/>
-			<label>First Name</label>
-		</span>
-		<span>
-			<input id="set_lname" required="required" readonly name= "lname" class="element text" maxlength="255" size="14" value=""/>
-			<label>Last Name</label>
-		</span>
-                </li>
-                    </li>		<li id="li_4" >
-                    <label class="description" for="element_4">Address </label>
-
-                    <div>
-                        <input id="set_address" required="required" readonly name="address" class="element text large" value="" type="text">
-                        <label for="element_4_1">Street Address</label>
-                    </div>
-
-                </li>		<li id="li_5" >
-                    <label class="description" for="element_5">Date of incident or situation  </label>
-		<span>
-			<input id="set_date" type="text" required="required" readonly name="dd" class="element text" size="10" maxlength="10" value="" type="text"> /
-			<label for="element_5_1">Date</label>
-		</span>
+                <ul >	<li id="li_5" >
+                    <label class="description">Please fill in the form:</label>
 
                 </li>		<li id="li_6" >
-                    <label class="description" for="element_6">Type </label>
+                    <label class="description" for="element_6">Short description </label>
                     <div>
-                        <input required="required" readonly id="set_type" name="type" class="element text medium" type="text" maxlength="255" value=""/>
+                        <input required="required" readonly id="set_sdescription" name="sdescription" class="element text medium" type="text" value=""/>
                     </div>
                 </li>			<li id="li_7" >
-                    <label class="description" for="element_7">Please describe what happened. Be as detailed as possible. </label>
+                    <label class="description" for="element_7">Detailed information </label>
                     <div>
-                        <textarea readonly required="required" id="set_description" name="description" class="element textarea medium"></textarea>
+                        <textarea required="required" readonly id="set_description" name="description" class="element textarea medium"></textarea>
                     </div>
                 </li>		<li id="li_8" >
                 </li>
 
                     <li class="buttons">
-                        <div><a class="button glow button-primary" value="Close" onclick="location.href='search.html'">Close</a></div>
+                        <div><a class="button glow button-primary" value="Close" onclick="location.href='main.html'">Close</a></div>
                     </li>
                 </ul>
             </form>
@@ -77,9 +53,10 @@
         </div>
     </div>
 </div>
+<div id="popAddPost"></div>
 <div id='cssmenu'>
 <ul>
-    <li><a href='main.html'><span>My complains</span></a></li>
+    <li><a href='main.html'><span>My Posts</span></a></li>
     <li class='active'><a href='search.html'><span>Search</span></a></li>
 </ul>
 </div>
@@ -111,7 +88,6 @@
 <script type="text/javascript" src="js/jq.min.js"></script>
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
 <script type="text/javascript" src="js/pop.js"></script>
-<script type="text/javascript" src="js/searchfor.js"></script>
 <script type="text/javascript" src="js/view.js"></script>
 
 </body>

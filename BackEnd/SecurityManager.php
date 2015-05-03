@@ -6,13 +6,16 @@ class SecurityManager extends SecurityCenter{
     
     private $_methodParam = null;
     private $_input = null;
+    private $_expectedLength = 35; //including CGI/
     //on initz set params
-    function __construct($methodParam){
+    function __construct($methodParam, $expectedLength){
         
         //HTTP method
         $this->_methodParam = $methodParam;
         //get ajax input
         $this->_input = file_get_contents("php://input");
+        //get uri length
+        $this->_expectedLength = $expectedLength;
         
     }
     /**
@@ -20,7 +23,7 @@ class SecurityManager extends SecurityCenter{
      */
     public function initializeSecurity($strickt){
         
-        if(!(parent::requestMethodCheck($this->_methodParam))){
+        if(!(parent::requestMethodCheck($this->_methodParam,$this->_expectedLength))){
             exit('Get - empty or incorrect parameter - Post - forbidden query detected');
         }elseif(!parent::requestHeaderCheck()){
             exit('Malformed header');

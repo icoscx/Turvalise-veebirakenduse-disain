@@ -46,7 +46,9 @@ $('form.login-form').on('submit',function(e) {
             response = $.trim(response);
             //console.log(response);
             if(!response.match(name_regex)){
-                alert('Login error, please try again later');
+                //alert('Login error, please try again');
+                alert(response);
+                location.href='index.html';
             }else{
                 $.cookie("username", response);
                 location.href='main.html';

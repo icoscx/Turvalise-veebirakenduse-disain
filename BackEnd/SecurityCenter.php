@@ -1,6 +1,9 @@
 <?php
-//    static  //self
-//    private  //$this->
+//PEALE IGAT potentsiaalset halvaloomulist tegevust mida antud funktsioonud siin classis tuvastavad
+//peaks IDEAALSES olukorras SESSIONI endima. Kuna me tahame ryndeid t2psemalt tuvastada, siis hetkel me seda ei tee
+//Selline k2itumine oleks korrektne live keskonnas, kuna peale esimest rynnakut oleks edasisied rynded
+//blokeeritud ning koiki rynnakuid ei pruugi tuvastada, seega on alati iga kahtlse kordse tegevuse korral
+//tungivalt soovitav sessioon tappa
 require('/SecurityIPS.php');
 
 class SecurityCenter extends IPS{
@@ -77,12 +80,15 @@ class SecurityCenter extends IPS{
      * @param type $parameter OPTIONAL, for GET requests. We dont accept empty values, a value must be set
      * @return boolean Paramater values ok and validated
      */
-    public function requestMethodCheck($parameter){
+    public function requestMethodCheck($parameter, $expectedLength){
         //filter invalid paramater values
         if ($_SERVER['REQUEST_METHOD'] === 'GET'){
                
             if(!((isset($_GET[$parameter])) && strlen($_GET[$parameter]) > 0 && (preg_match(self::$queryRegex, $_GET[$parameter])))){
                 parent::write('Get param value missing or malformed, bad request',false);
+                return false;
+            }elseif(strlen($this->equalString($_SERVER['REQUEST_URI'])) > $expectedLength){
+                parent::write('malformed, bad request, unexpected URI',false);
                 return false;
             }else{
                 return true;
@@ -108,7 +114,11 @@ class SecurityCenter extends IPS{
      * @return boolean true if is
      */
     public function checkSession(){
-
+        //PEALE IGAT potentsiaalset halvaloomulist tegevust mida antud funktsioonud siin classis tuvastavad
+        //peaks IDEAALSES olukorras SESSIONI endima. Kuna me tahame ryndeid t2psemalt tuvastada, siis hetkel me seda ei tee
+        //Selline k2itumine oleks korrektne live keskonnas, kuna peale esimest rynnakut oleks edasisied rynded
+        //blokeeritud ning koiki rynnakuid ei pruugi tuvastada, seega on alati iga kahtlse kordse tegevuse korral
+        //tungivalt soovitav sessioon tappa
         session_start();
         $username =  $_SESSION['UName'];
         $ip = $_SESSION['UIp'];
@@ -123,7 +133,7 @@ class SecurityCenter extends IPS{
             session_unset();
             $_SESSION=array();
             session_destroy();
-            parent::write('Potential Hijacker', false);
+            parent::write('Session: unexpected or changed client paramaters  (invalid Client IP or User agent or sess ID) detected', false);
             return false;
         }
 

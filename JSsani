@@ -1,0 +1,29 @@
+If you want to remove all tags, then do the following:
+var tagBody = '(?:[^"\'>]|"[^"]*"|\'[^\']*\')*';
+
+var tagOrComment = new RegExp(
+    '<(?:'
+    // Comment body.
+    + '!--(?:(?:-*[^->])*--+|-?)'
+    // Special "raw text" elements whose content should be elided.
+    + '|script\\b' + tagBody + '>[\\s\\S]*?</script\\s*'
+    + '|style\\b' + tagBody + '>[\\s\\S]*?</style\\s*'
+    // Regular name
+    + '|/?[a-z]'
+    + tagBody
+    + ')>',
+    'gi');
+function removeTags(html) {
+  var oldHtml;
+  do {
+    oldHtml = html;
+    html = html.replace(tagOrComment, '');
+  } while (html !== oldHtml);
+  return html.replace(/</g, '&lt;');
+}
+People will tell you that you can create an element, 
+and assign innerHTML and then get the innerText or textContent, 
+and then escape entities in that. Do not do that. It is vulnerable to 
+XSS injection since <img src=bogus onerror=alert(1337)> will run the 
+onerror handler even if the node is never attached to the DOM.
+

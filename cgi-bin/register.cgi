@@ -4,7 +4,7 @@
 
 require('../BackEnd/SecurityManager.php');
 //null = post
-$security = new SecurityManager(null);
+$security = new SecurityManager(null, null);
 //Post: if true = strict check, false = allow whitespace and -.!@
 $security->initializeSecurity(false);
 $data = $security->getVerifiedInput();

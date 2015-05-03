@@ -4,10 +4,12 @@
 
 require('../BackEnd/SecurityManager.php');
 //null = post
-$security = new SecurityManager(null);
-$security->validateSession();
+$security = new SecurityManager(null, null);
 //Post: if true = strict check, false = allow whitespace and -.!@
 $security->initializeSecurity(false);
+//IDEAALSELT peaks olema session check ennem, aga kuna me tahame tuvastada erinevaid
+//ryndeid, siis checkime sessi peale inputi
+$security->validateSession();
 $data = $security->getVerifiedInput();
 
 require('../BackEnd/DB.php');

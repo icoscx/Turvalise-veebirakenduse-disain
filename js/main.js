@@ -37,6 +37,11 @@ function logout(){
                  }
                 location.href='index.html';
             }
+            var cookies = $.cookie();
+            for(var cookie in cookies){
+                $.removeCookie(cookie);
+            }
+            location.href='index.html';
         },
         error: function (xhr, ajaxOptions, thrownError) {
             console.log(xhr.status);
