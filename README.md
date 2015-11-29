@@ -1,5 +1,3 @@
-# baka
-
 # Ivo Pure 104269
 
 # http://digi.lib.ttu.ee/i/?3432
